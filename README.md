@@ -1,2 +1,5 @@
 # colobot-logic
-A serie of colobot missions for teach introduction to programming logic
+A series of colobot missions for teach introductory programming logic
+
+##
+In development
