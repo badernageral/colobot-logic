@@ -1,0 +1,3 @@
+Title.E text="Tomando decisões" resume="Tomando decisões"
+Title.B text="Tomando decisões" resume="Tomando decisões"
+

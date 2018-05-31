@@ -1,0 +1,27 @@
+\b;Objetivo
+
+Detecte as bandeiras e siga as instruções para chegar ao objetivo final.
+
+\t;Informações úteis
+
+A partir dessa missão você vai começar a trabalhar com \c;\l;matrizes\u cbot\array;\n;.
+
+A função \c;\l;radarall\u cbot\radarall;\n; retorna todos os objetos próximos de acordo com a categoria informada, ou seja, seu retorno é uma matriz de objetos.
+A categoria das bandeiras azuis desta missão é: \type;BlueFlag\norm;. Para detectar todas as bandeiras azuis próximas, use:
+
+\type;object\norm; b[] = \token;radarall\norm;(\const;BlueFlag\norm;);
+
+A variável \type;b\norm; recebe uma matriz com todas as bandeiras, com esta matriz em mãos, faça o seguinte:
+
+1) Vá até a posição da 10º bandeira contida na matriz;
+2) Vá até a posição da 51º bandeira contida na matriz;
+3) Mova-se 2 metros em direção ao nordeste;
+4) Mova-se 3 metros em direção ao noroeste.
+
+As seguintes funções serão utilizadas nesta missão:
+   \c;\l;move\u cbot\move;\n; - move para frente ou para trás;
+   \c;\l;goto\u cbot\goto;\n; - move-se para a posição informada;
+   \c;\l;turn\u cbot\turn;\n; - gira de acordo com o ângulo informado;
+   \c;\l;radarall\u cbot\radarall;\n; - captura informações de vários objetos próximos.
+
+

@@ -1,0 +1,8 @@
+extern void object::Missao4()
+{
+	while(true){
+		move(2);
+		move(-2);
+	}
+}
+

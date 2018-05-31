@@ -1,0 +1,34 @@
+\b;Objetivo
+
+Mova o robô para uma localização específica.
+
+\t;Informações úteis
+
+A partir desta missão você irá começar a criar suas próprias \c;\l;funções\u cbot\function;\n;.
+
+Esta missão é igual a missão 5 do capítulo 4, ou seja, você deve capturar as informações dos postos de troca, destruí-los, calcular a posição e mover o robô até lá, porém, como vamos começar a trabalhar com funções, veja o código abaixo:
+
+\const;extern \type;void object\norm;::Missao1()
+{
+   \type;int\norm; info[][] = coletarInformacao();
+   \type;point\norm; pos = calcularPosicao(info);
+   \token;goto\norm;(pos);
+}
+\type;int\norm;[][] coletarInformacao(){
+   // resposta aqui
+}
+\type;point\norm; calcularPosicao(int[][] info){
+   // resposta aqui
+}
+
+Perceba que o código acima é a resposta desta missão, restando somente preencher o conteúdo das funções \type;coletarInformacao\norm; e \type;calcularPosicao\norm;, você pode reutilizar o código da missão que você já resolveu, portanto preste bastante atenção ao código foi escrito, vamos seguir esta estrutura nas próximas missões.
+
+Enquanto a primeira função não possui parâmetros, a segunda espera como parâmetro as informações obtidas junto ao posto de troca, perceba também que as duas funções retornam valores, ou seja, não esqueça de utilizar a instrução \c;\l;return\u cbot\return;\n;.
+
+As seguintes funções serão utilizadas nesta missão:
+   \c;\l;goto\u cbot\goto;\n; - move-se para a posição informada;
+   \c;\l;receive\u cbot\receive;\n; - solicita informações a um posto;
+   \c;\l;turn\u cbot\turn;\n; - gira de acordo com o ângulo informado;
+   \c;\l;fire\u cbot\fire;\n; - atira pela quantidade de tempo informada.
+
+

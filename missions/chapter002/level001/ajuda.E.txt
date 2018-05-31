@@ -1,0 +1,17 @@
+\b;Objetivo
+
+Mova o robô de acordo com os valores obtidos.
+
+\t;Informações úteis
+
+A partir desta missão você irá começar a usar a estrutura \c;\l;if/else\u cbot\if;\n;
+
+Capture o valor de \type;v1\norm; (do tipo \type;int\norm;) junto ao posto de troca.
+
+1) Se o valor de \type;v1\norm; for maior ou igual a 5, mova 5 metros em direção ao norte; se for menor que 5, mova-se 5 metros em direção ao leste;
+
+As seguintes funções serão utilizadas nesta missão:
+   \c;\l;move\u cbot\move;\n; - move para frente ou para trás;
+   \c;\l;turn\u cbot\turn;\n; - gira de acordo com o ângulo informado;
+   \c;\l;receive\u cbot\receive;\n; - solicita informações a um posto.
+

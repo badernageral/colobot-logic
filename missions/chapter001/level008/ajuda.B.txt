@@ -1,0 +1,23 @@
+\b;Objetivo
+
+Pegue o explosivo e leve-o para a posição obtida.
+
+\t;Informações úteis
+
+Nesta missão seu robô pode transportar objetos, basta chamar as funções \c;\l;grab\u cbot\grab;\n; (pegar) e \c;\l;drop\u cbot\drop;\n; (largar).
+
+Você deverá detectar o explosivo (tipo TNT) com a função \c;\l;radar\u cbot\radar;\n;, ir até sua posição com a função \c;\l;goto\u cbot\goto;\n;, pegá-lo com a função \c;\l;grab\u cbot\grab;\n;, obter as coordenadas junto ao posto com a função \c;\l;receive\u cbot\receive;\n;, mover-se até essa posição e largar o objeto com a função \c;\l;drop\u cbot\drop;\n;.
+
+As informações disponibilizadas pelos posto são: \type;x\norm; e \type;y\norm;.
+Tenha em mente que se você estiver a mais de 10 metros do posto a solicitação não será respondida, a menos que você aumente a distância com um segundo parâmetro, por exemplo, posto a 100 metros de distância:
+
+\const;int \type;a \const; = \token;receive\const;(\type;"info"\const;, \type;100\const;);\norm;
+
+As seguintes funções serão utilizadas nesta missão:
+   \c;\l;grab\u cbot\grab;\n; - pega um objeto;
+   \c;\l;drop\u cbot\drop;\n; - larga um objeto;
+   \c;\l;goto\u cbot\goto;\n; - move-se para a posição informada;
+   \c;\l;receive\u cbot\receive;\n; - solicita informações a um posto;
+   \c;\l;radar\u cbot\radar;\n; - captura informações de um objeto próximo.
+
+

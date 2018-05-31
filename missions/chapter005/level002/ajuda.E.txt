@@ -1,0 +1,28 @@
+\b;Objetivo
+
+Destrua todos os insetos.
+
+\t;Informações úteis
+
+Veja o código abaixo:
+
+\const;extern \type;void object\norm;::Missao2()
+{
+	eliminarFormigas();
+	eliminarVespas();
+	eliminarAranhas();
+}
+
+Copie este código e finalize-o criando as 3 funções indicadas acima. Estas funções não retornam nada, então use \type;void\norm; como tipo de retorno da função.
+
+As categorias são:
+   - Formiga: \const;AlienAnt\norm;;
+   - Vespa: \const;AlienWasp\norm;;
+   - Aranha: \const;AlienSpider\norm;.
+
+As seguintes funções serão utilizadas nesta missão:
+   \c;\l;turn\u cbot\turn;\n; - gira de acordo com o ângulo informado;
+   \c;\l;fire\u cbot\fire;\n; - atira pela quantidade de tempo informada;
+   \c;\l;radarall\u cbot\radarall;\n; - captura informações de vários objetos próximos;
+   \c;\l;direction\u cbot\direct;\n; - calcula o ângulo de rotação para a posição informada.
+

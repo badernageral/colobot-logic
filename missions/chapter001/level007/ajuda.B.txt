@@ -1,0 +1,19 @@
+\b;Objetivo
+
+Mova o robô para as posições dos objetos detectados.
+
+\t;Informações úteis
+
+Seu robô consegue detectar objetos próximos com a função \c;\l;radar\u cbot\radar;\n;, com isto em mente, usaremos a função \c;\l;goto\u cbot\goto;\n; para ir até a posição dos objetos detectados.
+
+Para detectar um objeto você deve informar seu tipo, as cruzes azuis são do tipo \type;WayPoint\norm;.
+Uma variável do tipo \type;object\norm; será utilizada para armazenar as informações do objeto detectado, para acessar a posição utilize a propriedade \type;position\norm;.
+
+\const;object \type;a \const; = \token;radar\const;(\type;WayPoint\const;);\norm;
+\const;goto(\type;a.position\const;);\norm;
+
+As seguintes funções serão utilizadas nesta missão:
+   \c;\l;goto\u cbot\goto;\n; - move-se para a posição informada;
+   \c;\l;radar\u cbot\radar;\n; - captura informações de um objeto próximo.
+
+

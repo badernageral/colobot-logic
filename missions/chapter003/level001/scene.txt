@@ -1,0 +1,81 @@
+// Título EN
+Title.E text="Veredas a repetir"
+Resume.E text="Mova o robô de acordo com os valores obtidos."
+ScriptName.E text="Missao1"
+
+// Título BR
+Title.B text="Veredas a repetir"
+Resume.B text="Mova o robô de acordo com os valores obtidos."
+ScriptName.B text="Missao1"
+
+// SatCom
+Instructions name="%lvl%/ajuda.%lng%.txt" immediat=1
+
+// Documentação em <colobot>/help
+HelpFile name="cbot.txt"
+
+// Configurações básicas
+EndingFile win=2 lost=0
+MessageDelay factor=1.0
+Audio filename="%chap%/musica.ogg" repeat=1
+Background up=0.000;0.706;1.000 down=1.000;1.000;1.000
+SecondTexture rank=5
+MaxFlyingHeight max=100
+
+// Terreno
+TerrainGenerate vision=1600.0 depth=1 hard=0.3 slope=0.0
+TerrainRelief image="%lvl%/relevo.bmp" factor=1.0
+TerrainInitTextures image="%chap%/terreno.bmp" dx=1 dy=1
+TerrainCreate
+
+// Objetos
+BeginObject
+CreateObject pos=2.5;2.5 dir=0 type=StartArea
+CreateObject pos=2.5;2.5 dir=1.5 type=PracticeBot power=100 trainer=1 select=1 camera=BACK
+
+CreateObject pos=-12;-2.5 dir=1.5 type=ExchangePost selectable=0 magnifyDamage=0 info1="m=15" info2="d=1"
+
+CreateObject pos=-42;12 dir=1.5 type=ExchangePost selectable=0 magnifyDamage=0 info1="m=30" info2="d=1"
+CreateObject pos=47;12 dir=1.5 type=ExchangePost selectable=0 magnifyDamage=0 info1="m=30" info2="d=1"
+
+CreateObject pos=-12;32 dir=1.5 type=ExchangePost selectable=0 magnifyDamage=0 info1="m=30" info2="d=4"
+CreateObject pos=17.5;32 dir=1.5 type=ExchangePost selectable=0 magnifyDamage=0 info1="m=30" info2="d=1"
+
+CreateObject pos=-72;62 dir=1.5 type=ExchangePost selectable=0 magnifyDamage=0 info1="m=30" info2="d=1"
+CreateObject pos=-42;62 dir=1.5 type=ExchangePost selectable=0 magnifyDamage=0 info1="m=30" info2="d=4"
+CreateObject pos=-12;62 dir=1.5 type=ExchangePost selectable=0 magnifyDamage=0 info1="m=30" info2="d=1"
+CreateObject pos=17;62 dir=1.5 type=ExchangePost selectable=0 magnifyDamage=0 info1="m=30" info2="d=1"
+CreateObject pos=48;62 dir=1.5 type=ExchangePost selectable=0 magnifyDamage=0 info1="m=30" info2="d=1"
+CreateObject pos=77;62 dir=1.5 type=ExchangePost selectable=0 magnifyDamage=0 info1="m=30" info2="d=1"
+
+CreateObject pos=-72;92 dir=1.5 type=ExchangePost selectable=0 magnifyDamage=0 info1="m=30" info2="d=2"
+CreateObject pos=-42;92 dir=1.5 type=ExchangePost selectable=0 magnifyDamage=0 info1="m=10" info2="d=3"
+CreateObject pos=-12;92 dir=1.5 type=ExchangePost selectable=0 magnifyDamage=0 info1="m=30" info2="d=1"
+CreateObject pos=17;92 dir=1.5 type=ExchangePost selectable=0 magnifyDamage=0 info1="m=30" info2="d=1"
+CreateObject pos=48;92 dir=1.5 type=ExchangePost selectable=0 magnifyDamage=0 info1="m=30" info2="d=1"
+CreateObject pos=77;92 dir=1.5 type=ExchangePost selectable=0 magnifyDamage=0 info1="m=30" info2="d=1"
+
+CreateObject pos=-42;122 dir=1.5 type=ExchangePost selectable=0 magnifyDamage=0 info1="m=30" info2="d=1"
+CreateObject pos=-12;122 dir=1.5 type=ExchangePost selectable=0 magnifyDamage=0 info1="m=30" info2="d=1"
+CreateObject pos=17;122 dir=1.5 type=ExchangePost selectable=0 magnifyDamage=0 info1="m=30" info2="d=1"
+CreateObject pos=47;122 dir=1.5 type=ExchangePost selectable=0 magnifyDamage=0 info1="m=30" info2="d=1"
+
+
+// Opções do minimapa
+MapColor floor=0.882;0.882;0.882 water=0.000;0.000;0.000
+MapZoom factor=1.0
+
+// Luzes
+CreateLight dir= 0.0;-1.0; 0.0 color= 0.63; 0.63; 0.63 type=Terrain
+CreateLight dir= 1.0; 0.0;-1.0 color=-0.70;-0.70;-0.70 type=Terrain
+CreateLight dir=-1.0; 0.0; 1.0 color= 1.40; 1.40; 1.40 type=Terrain
+CreateLight dir=-1.0;-1.0; 1.0 color= 0.56; 0.56; 0.56 type=Object
+CreateLight dir= 1.0;-1.0; 1.0 color= 0.32; 0.32; 0.32 type=Object
+CreateLight dir=-1.0;-1.0;-1.0 color= 0.32; 0.32; 0.32 type=Object
+CreateLight dir= 1.0;-1.0;-1.0 color= 0.16; 0.16; 0.16 type=Object
+
+// Condições para completar a missão
+EndMissionTake pos=0;0 dist=1000 type=PracticeBot lost=0
+EndMissionTake pos=-27.5;67.5 dist=1 type=PracticeBot min=1
+
+

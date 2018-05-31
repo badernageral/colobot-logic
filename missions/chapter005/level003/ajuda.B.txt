@@ -1,0 +1,26 @@
+\b;Objetivo
+
+Crie uma função que move o robô na direção indicada.
+
+\t;Informações úteis
+
+Veja o código abaixo:
+
+\const;extern \type;void object\norm;::Missao3()
+{
+   mover(10, "norte");
+   mover(5, "leste");
+   mover(5, "sul");
+   mover(10, "oeste");
+}
+void object::mover(int dis, string dir){
+   // sua resposta aqui
+}
+
+Copie este código e finalize-o criando o corpo da função \type;mover\norm;. O termo \token;object\norm; no nome desta função permite que a mesma tenha acesso as propriedades do robô a partir de \const;this\norm;, o que é fundamental para obter a posição atual do robô.
+
+As seguintes funções serão utilizadas nesta missão:
+   \c;\l;move\u cbot\move;\n; - move para frente ou para trás;
+   \c;\l;turn\u cbot\turn;\n; - gira de acordo com o ângulo informado;
+   \c;\l;direction\u cbot\direct;\n; - calcula o ângulo de rotação para a posição informada.
+

@@ -1,0 +1,13 @@
+\b;Objetivo
+
+Mova o robô até o alvo utilizando um programa criado por você.
+
+\t;Informações úteis
+
+Para criar um programa clique no botão com o sinal de mais no canto inferior esquerdo de sua tela;
+Para editar o código do programa, selecione-o e clique no botão com as chaves {..};
+Para executar o programa, clique no botão com uma "seta".
+
+As seguintes funções serão utilizadas nesta missão:
+   \c;\l;move\u cbot\move;\n; - move para frente ou para trás;
+   \c;\l;turn\u cbot\turn;\n; - gira de acordo com o ângulo informado.

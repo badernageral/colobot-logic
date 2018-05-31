@@ -1,0 +1,24 @@
+\b;Objetivo
+
+Mova o robô para as posições informadas.
+
+\t;Informações úteis
+
+Você usará variáveis do tipo \c;\l;point\u cbot\point;\n; nesta missão.
+Essa variáveis armazenam uma posição, ou seja, coordenadas x, y e z, veja um exemplo:
+
+\const;point \type;a \const;(\type;10, 20, 30\const;);\norm;
+
+Onde x=10, y=20 e z=30.
+x representa direita (+) ou esquerda (-)
+y representa frente (+) ou trás (-)
+z representa cima (+) ou baixo (-)
+
+As coordenadas do primeiro ponto são x=-5, y=7.5 e z=0.
+As coordenadas do segundo ponto são x=4, y=12 e z=0.
+Mova o robô para estas coordenadas utilizando a função \c;\l;goto\u cbot\goto;\n;.
+
+As seguintes funções serão utilizadas nesta missão:
+   \c;\l;goto\u cbot\goto;\n; - move-se para a posição informada.
+
+

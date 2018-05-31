@@ -1,0 +1,12 @@
+extern void object::Missao4()
+{
+	while(true){
+		object b = radar(Barrier, 0, 45, 0, 6);
+		if(b==null){
+			motor(1,1);
+		}else{
+			motor(0,1);
+		}
+	}
+}
+

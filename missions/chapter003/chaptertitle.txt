@@ -1,0 +1,3 @@
+Title.E text="Hora de repetir" resume="Hora de repetir"
+Title.B text="Hora de repetir" resume="Hora de repetir"
+

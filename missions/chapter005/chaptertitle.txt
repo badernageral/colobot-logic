@@ -1,0 +1,3 @@
+Title.E text="Minhas instruções" resume="Minhas instruções"
+Title.B text="Minhas instruções" resume="Minhas instruções"
+

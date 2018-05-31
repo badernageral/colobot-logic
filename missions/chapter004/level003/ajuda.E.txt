@@ -1,0 +1,38 @@
+\b;Objetivo
+
+Destrua os robôs que estão a menos de 15m de você.
+
+\t;Informações úteis
+
+O categoria dos alvos é \const;TargetBot\norm;.
+
+Após detectar todos os robôs com \c;\l;radarall\u cbot\radarall;\n; e armazená-los em uma matriz, você deve iterar sobre a matriz (usar um laço para verificar cada elemento), para isto você vai precisar saber quantos elementos a matriz tem usando a função \c;\l;sizeof\u cbot\sizeof;\n;:
+
+\type;int\norm; a[] = {1,1,1,1,1};
+\type;int\norm; b = \token;sizeof\norm;(a);
+
+O valor de \token;b\norm; será 5.
+
+Para calcular a distância entre duas posições use a função \c;\l;distance\u cbot\dist;\n;, por exemplo:
+
+\type;point\norm; a(5,5,0);
+\type;point\norm; b;
+b.x = 10;
+b.y = 10;
+b.z = 0;
+\type;float\norm; c = \token;distance\norm;(a,b);
+
+O valor de \token;c\norm; será ~7 metros (7.071067812).
+
+Para saber a posição atual do robô, utilize:
+
+\type;point\norm; r = \type;this\norm;.position;
+
+As seguintes funções serão utilizadas nesta missão:
+   \c;\l;turn\u cbot\turn;\n; - gira de acordo com o ângulo informado;
+   \c;\l;fire\u cbot\fire;\n; - atira pela quantidade de tempo informada;
+   \c;\l;distance\u cbot\dist;\n; - calcula a distância entre duas posições;
+   \c;\l;sizeof\u cbot\sizeof;\n; - retorna a quantidade de elementos de uma matriz;
+   \c;\l;radarall\u cbot\radarall;\n; - captura informações de vários objetos próximos;
+   \c;\l;direction\u cbot\direct;\n; - calcula o ângulo de rotação para a posição informada.
+

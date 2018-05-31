@@ -1,0 +1,39 @@
+\b;Objetivo
+
+Mova o robô para uma localização específica.
+
+\t;Informações úteis
+
+Esta missão possui 3 postos de troca, cada um deles com as mesmas informações: \token;v1\norm;, \token;v2\norm;, \token;v3\norm;, \token;v4\norm; e \token;v5\norm;, totalizando 15 valores diferentes, você pode coletá-los usando a função \c;\l;receive\u cbot\receive;\n; dentro de um laço \type;for\norm;, por exemplo:
+
+\type;receive\norm;("v"+\token;i\norm;);
+
+Onde \token;i\norm; é uma variável do tipo \type;int\norm; que vai de 1 até 5 e o operador \type;+\norm; é usado para concatenação.
+
+O desafio está em resolver utilizando somente as variáveis abaixo:
+
+\type;int\norm; \const;info\norm;[3][5], \const;i\norm;, \const;j\norm;;
+\type;point\norm; \const;pos\norm;(0,0,0);
+
+Perceba que \const;info\norm; é uma matriz de duas dimessões, onde a primeira dimensão representa os postos de troca por proximidade ao robô, a segunda dimensão representa os valores de \token;v1\norm; até \token;v5\norm;.
+
+Você deve coletar as informações do posto mais próximo com a função \c;\l;receive\u cbot\receive;\n;, depois destruir este posto com a função \c;\l;fire\u cbot\fire;\n;, receber as informações do segundo, destruí-lo, receber as informações do terceiro e destruí-lo (queima de arquivo).
+
+Com todas as informações em mãos, basta calcular a posição para onde o robô deve ir.
+Vamos chamar o primeiro posto de A, o segundo de B e o terceiro de C, com isto em mente:
+
+\token;pos\norm;.\type;x\norm; = Av1 * Bv1 * Cv1 + Av2 * Bv2 * Cv2 + Av3 * Bv3 * Cv3 + Av4 * Bv4 * Cv4 + Av5 * Bv5 * Cv5;
+
+\token;pos\norm;.\type;y\norm; = Av1 / Bv1 / Cv1 - Av2 / Bv2 / Cv2 - Av3 / Bv3 / Cv3 - Av4 / Bv4 / Cv4 - Av5 / Bv5 / Cv5;
+
+Você pode diminuir drasticamente as fórmulas acima utilizando uma estrutura \type;for\norm;.
+
+Para finalizar a missão basta usar a função \c;\l;goto\u cbot\goto;\n; para ir até \token;pos\norm;.
+
+As seguintes funções serão utilizadas nesta missão:
+   \c;\l;goto\u cbot\goto;\n; - move-se para a posição informada;
+   \c;\l;receive\u cbot\receive;\n; - solicita informações a um posto;
+   \c;\l;turn\u cbot\turn;\n; - gira de acordo com o ângulo informado;
+   \c;\l;fire\u cbot\fire;\n; - atira pela quantidade de tempo informada.
+
+

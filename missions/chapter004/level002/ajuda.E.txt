@@ -1,0 +1,34 @@
+\b;Objetivo
+
+Detecte as bandeiras e siga as instruções para chegar ao objetivo final.
+
+\t;Informações úteis
+
+Nesta missão existem vários tipos de bandeiras, suas categorias são:
+   - Bandeira azul: \const;BlueFlag\norm;;
+   - Bandeira vermelha: \const;RedFlag\norm;;
+   - Bandeira verde: \const;GreenFlag\norm;;
+   - Bandeira amarela: \const;YellowFlag\norm;;
+   - Bandeira violeta: \const;VioletFlag\norm;.
+
+A função \c;\l;radarall\u cbot\radarall;\n; pode detectar mais de um tipo de objeto, basta informar uma matriz de categorias ao chamar a função. Sabendo que uma categoria é uma constante do tipo \type;int\norm;:
+
+\type;int\norm; cat[2];
+cat[0] = \const;TNT\norm;;
+cat[1] = \const;BlackBox\norm;;
+\type;object\norm;[] bt = \token;radarall\norm;(cat);
+
+A variável \type;bt\norm; irá conter todos os explosivos (\const;TNT\norm;) e caixas pretas (\const;BlackBox\norm;) próximas, com isso em mente, após detectar todas as bandeiras e armazená-las em uma única matriz, faça o seguinte:
+
+1) Vá até a posição da 24º bandeira contida na matriz;
+2) Vá até a posição da 52º bandeira contida na matriz;
+3) Mova-se 2 metros em direção ao noroeste;
+4) Mova-se 3 metros em direção ao nordeste.
+
+As seguintes funções serão utilizadas nesta missão:
+   \c;\l;move\u cbot\move;\n; - move para frente ou para trás;
+   \c;\l;goto\u cbot\goto;\n; - move-se para a posição informada;
+   \c;\l;turn\u cbot\turn;\n; - gira de acordo com o ângulo informado;
+   \c;\l;radarall\u cbot\radarall;\n; - captura informações de vários objetos próximos.
+
+

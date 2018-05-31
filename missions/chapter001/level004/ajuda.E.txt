@@ -1,0 +1,20 @@
+\b;Objetivo
+
+Colete a cruz azul correta.
+
+\t;Informações úteis
+
+Se o robô coletar a cruz errada a missão irá falhar.
+Basta ajustar o angulo correto e mover o robô para frente.
+
+O posto de troca de informação ao seu lado possui o valor do ângulo correto, basta solicitar esta informação.
+O nome da informação a ser solicitada é "angulo", solicite e armazene em uma variável deste jeito:
+
+\const;int \type;a \const; = \token;receive\const;(\type;"angulo"\norm;);
+
+As seguintes funções serão utilizadas nesta missão:
+   \c;\l;move\u cbot\move;\n; - move para frente ou para trás;
+   \c;\l;turn\u cbot\turn;\n; - gira de acordo com o ângulo informado;
+   \c;\l;receive\u cbot\receive;\n; - solicita informações a um posto.
+
+

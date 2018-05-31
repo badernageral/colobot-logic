@@ -1,0 +1,75 @@
+// Título EN
+Title.E text="Obtendo posições"
+Resume.E text="Mova o robô para as posições obtidas."
+ScriptName.E text="Missao6"
+
+// Título BR
+Title.B text="Obtendo posições"
+Resume.B text="Mova o robô para as posições obtidas."
+ScriptName.B text="Missao6"
+
+// SatCom
+Instructions name="%lvl%/ajuda.%lng%.txt" immediat=1
+
+// Documentação em <colobot>/help
+HelpFile name="cbot.txt"
+
+// Configurações básicas
+EndingFile win=2 lost=0
+MessageDelay factor=1.0
+Audio filename="%chap%/musica.ogg" repeat=1
+Background up=0.000;0.706;1.000 down=1.000;1.000;1.000
+SecondTexture rank=5
+MaxFlyingHeight max=100
+
+// Terreno
+TerrainGenerate vision=1600.0 depth=1 hard=0.3 slope=0.0
+TerrainRelief image="%chap%/relevo.bmp" factor=1.0
+TerrainInitTextures image="%chap%/terreno.bmp" dx=1 dy=1
+TerrainCreate
+
+// Objetos
+BeginObject
+CreateObject pos=0;0 dir=0 type=StartArea
+CreateObject pos=0;0 dir=1.5 type=PracticeBot power=100 trainer=1 select=1 camera=BACK
+CreateObject pos=-5;0 dir=1.5 type=ExchangePost selectable=0 magnifyDamage=0 info1="x1=-5" info2="x2=-3" info3="x3=-3" info4="y1=6" info5="y2=10" info6="y3=14"
+CreateObject pos=-5;6 dir=0 type=WayPoint
+CreateObject pos=5;10 dir=0 type=WayPoint
+CreateObject pos=-3;14 dir=0 type=WayPoint
+CreateObject pos=0;-5 dir=0 type=Barrier1
+CreateObject pos=-5;-5 dir=0 type=Barrier1
+CreateObject pos=5;-5 dir=0 type=Barrier1
+CreateObject pos=-9.5;-3 dir=0.25 type=Barrier1
+CreateObject pos=9.5;-3 dir=-0.25 type=Barrier1
+CreateObject pos=11.5;1.5 dir=0.5 type=Barrier1
+CreateObject pos=-11.5;1.5 dir=0.5 type=Barrier1
+CreateObject pos=11.5;6.5 dir=0.5 type=Barrier1
+CreateObject pos=-11.5;6.5 dir=0.5 type=Barrier1
+CreateObject pos=11.5;11.5 dir=0.5 type=Barrier1
+CreateObject pos=-11.5;11.5 dir=0.5 type=Barrier1
+CreateObject pos=11.5;16.5 dir=0.5 type=Barrier1
+CreateObject pos=-11.5;16.5 dir=0.5 type=Barrier1
+CreateObject pos=9.5;20.8 dir=0.25 type=Barrier1
+CreateObject pos=-9.5;20.8 dir=-0.25 type=Barrier1
+CreateObject pos=-5;22.5 dir=-0 type=Barrier1
+CreateObject pos=0;22.5 dir=-0 type=Barrier1
+CreateObject pos=5;22.5 dir=-0 type=Barrier1
+
+// Opções do minimapa
+MapColor floor=0.882;0.882;0.882 water=0.000;0.000;0.000
+MapZoom factor=1.0
+
+// Luzes
+CreateLight dir= 0.0;-1.0; 0.0 color= 0.63; 0.63; 0.63 type=Terrain
+CreateLight dir= 1.0; 0.0;-1.0 color=-0.70;-0.70;-0.70 type=Terrain
+CreateLight dir=-1.0; 0.0; 1.0 color= 1.40; 1.40; 1.40 type=Terrain
+CreateLight dir=-1.0;-1.0; 1.0 color= 0.56; 0.56; 0.56 type=Object
+CreateLight dir= 1.0;-1.0; 1.0 color= 0.32; 0.32; 0.32 type=Object
+CreateLight dir=-1.0;-1.0;-1.0 color= 0.32; 0.32; 0.32 type=Object
+CreateLight dir= 1.0;-1.0;-1.0 color= 0.16; 0.16; 0.16 type=Object
+
+// Condições para completar a missão
+EndMissionTake pos=0;0 dist=1000 type=PracticeBot lost=0
+EndMissionTake pos=0;0 dist=1000 type=WayPoint min=0 max=0
+
+
