@@ -1,7 +1,7 @@
 // Título EN
-Title.E text="Veredas"
-Resume.E text="Mova o robô de acordo com os valores obtidos."
-ScriptName.E text="Missao5"
+Title.E text="Paths"
+Resume.E text="Move the robot according to the values obtained."
+ScriptName.E text="Mission5"
 
 // Título BR
 Title.B text="Veredas"

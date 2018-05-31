@@ -1,7 +1,7 @@
 // Título EN
-Title.E text="Não se mecha"
-Resume.E text="Destrua somente alguns robôs."
-ScriptName.E text="Missao4"
+Title.E text="Do not move"
+Resume.E text="Destroy only a few robots."
+ScriptName.E text="Mission4"
 
 // Título BR
 Title.B text="Não se mecha"

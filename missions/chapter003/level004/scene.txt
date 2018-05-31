@@ -1,7 +1,7 @@
 // Título EN
-Title.E text="Coletor seletivo"
-Resume.E text="Colete as cruzes azuis."
-ScriptName.E text="Missao4"
+Title.E text="Selective collector"
+Resume.E text="Collect the blue crosses."
+ScriptName.E text="Mission4"
 
 // Título BR
 Title.B text="Coletor seletivo"

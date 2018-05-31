@@ -1,7 +1,7 @@
 // Título EN
-Title.E text="Posições"
-Resume.E text="Mova o robô para as posições informadas."
-ScriptName.E text="Missao5"
+Title.E text="Positions"
+Resume.E text="Move the robot to the informed positions."
+ScriptName.E text="Mission5"
 
 // Título BR
 Title.B text="Posições"

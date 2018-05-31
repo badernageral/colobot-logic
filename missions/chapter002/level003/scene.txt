@@ -1,7 +1,7 @@
 // Título EN
-Title.E text="Testes diagonais?"
-Resume.E text="Mova o robô de acordo com os valores obtidos."
-ScriptName.E text="Missao3"
+Title.E text="Diagonal tests?"
+Resume.E text="Move the robot according to the values obtained."
+ScriptName.E text="Mission3"
 
 // Título BR
 Title.B text="Testes diagonais?"

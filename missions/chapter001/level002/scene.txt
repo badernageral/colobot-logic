@@ -1,7 +1,7 @@
 // Título EN
-Title.E text="Programando"
-Resume.E text="Mova o robô até o alvo utilizando um programa criado por você."
-ScriptName.E text="Missao2"
+Title.E text="Programming"
+Resume.E text="Move the robot to the target using a program created by you."
+ScriptName.E text="Mission2"
 
 // Título BR
 Title.B text="Programando"

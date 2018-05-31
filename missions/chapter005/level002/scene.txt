@@ -1,7 +1,7 @@
 // Título EN
-Title.E text="Inseticida"
-Resume.E text="Destrua os alvos."
-ScriptName.E text="Missao2"
+Title.E text="Insecticide"
+Resume.E text="Destroy the targets."
+ScriptName.E text="Mission2"
 
 // Título BR
 Title.B text="Inseticida"
