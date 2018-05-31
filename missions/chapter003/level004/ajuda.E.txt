@@ -1,16 +1,16 @@
-\b;Objetivo
+\b;Objective
 
 Colete as cruzes azuis.
 
-\t;Informações úteis
+\t;Instructions
 
 Capture a informação \type;qtd\norm; (do tipo \type;int\norm;) junto ao posto de troca.
 
 Colete somente a quantidade de cruzes azuis informada no valor de \type;qtd\norm;.
 
-As seguintes funções serão utilizadas nesta missão:
-   \c;\l;goto\u cbot\goto;\n; - move-se para a posição informada;
-   \c;\l;receive\u cbot\receive;\n; - solicita informações a um posto;
-   \c;\l;radar\u cbot\radar;\n; - captura informações de um objeto próximo.
+The following functions will be used in this mission:
+   \c;\l;goto\u cbot\goto;\n; - moves to the informed position;
+   \c;\l;receive\u cbot\receive;\n; - requests information from a post;
+   \c;\l;radar\u cbot\radar;\n; - captures information from a nearby object.
 
 

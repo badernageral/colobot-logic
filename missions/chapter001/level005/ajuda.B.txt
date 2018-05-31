@@ -2,7 +2,7 @@
 
 Mova o robô para as posições informadas.
 
-\t;Informações úteis
+\t;Instruções
 
 Você usará variáveis do tipo \c;\l;point\u cbot\point;\n; nesta missão.
 Essa variáveis armazenam uma posição, ou seja, coordenadas x, y e z, veja um exemplo:

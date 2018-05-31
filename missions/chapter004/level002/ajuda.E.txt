@@ -1,8 +1,8 @@
-\b;Objetivo
+\b;Objective
 
 Detecte as bandeiras e siga as instruções para chegar ao objetivo final.
 
-\t;Informações úteis
+\t;Instructions
 
 Nesta missão existem vários tipos de bandeiras, suas categorias são:
    - Bandeira azul: \const;BlueFlag\norm;;
@@ -25,10 +25,10 @@ A variável \type;bt\norm; irá conter todos os explosivos (\const;TNT\norm;) e 
 3) Mova-se 2 metros em direção ao noroeste;
 4) Mova-se 3 metros em direção ao nordeste.
 
-As seguintes funções serão utilizadas nesta missão:
-   \c;\l;move\u cbot\move;\n; - move para frente ou para trás;
-   \c;\l;goto\u cbot\goto;\n; - move-se para a posição informada;
-   \c;\l;turn\u cbot\turn;\n; - gira de acordo com o ângulo informado;
-   \c;\l;radarall\u cbot\radarall;\n; - captura informações de vários objetos próximos.
+The following functions will be used in this mission:
+   \c;\l;move\u cbot\move;\n; - moves forward or backward;
+   \c;\l;goto\u cbot\goto;\n; - moves to the informed position;
+   \c;\l;turn\u cbot\turn;\n; - rotates according to the given angle;
+   \c;\l;radarall\u cbot\radarall;\n; - capture information from multiple nearby objects.
 
 

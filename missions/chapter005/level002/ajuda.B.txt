@@ -2,7 +2,7 @@
 
 Destrua todos os insetos.
 
-\t;Informações úteis
+\t;Instruções
 
 Veja o código abaixo:
 

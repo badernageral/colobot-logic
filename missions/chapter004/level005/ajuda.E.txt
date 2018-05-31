@@ -1,8 +1,8 @@
-\b;Objetivo
+\b;Objective
 
 Mova o robô para uma localização específica.
 
-\t;Informações úteis
+\t;Instructions
 
 Esta missão possui 3 postos de troca, cada um deles com as mesmas informações: \token;v1\norm;, \token;v2\norm;, \token;v3\norm;, \token;v4\norm; e \token;v5\norm;, totalizando 15 valores diferentes, você pode coletá-los usando a função \c;\l;receive\u cbot\receive;\n; dentro de um laço \type;for\norm;, por exemplo:
 
@@ -30,10 +30,10 @@ Você pode diminuir drasticamente as fórmulas acima utilizando uma estrutura \t
 
 Para finalizar a missão basta usar a função \c;\l;goto\u cbot\goto;\n; para ir até \token;pos\norm;.
 
-As seguintes funções serão utilizadas nesta missão:
-   \c;\l;goto\u cbot\goto;\n; - move-se para a posição informada;
-   \c;\l;receive\u cbot\receive;\n; - solicita informações a um posto;
-   \c;\l;turn\u cbot\turn;\n; - gira de acordo com o ângulo informado;
-   \c;\l;fire\u cbot\fire;\n; - atira pela quantidade de tempo informada.
+The following functions will be used in this mission:
+   \c;\l;goto\u cbot\goto;\n; - moves to the informed position;
+   \c;\l;receive\u cbot\receive;\n; - requests information from a post;
+   \c;\l;turn\u cbot\turn;\n; - rotates according to the given angle;
+   \c;\l;fire\u cbot\fire;\n; - shoot for the amount of time given.
 
 

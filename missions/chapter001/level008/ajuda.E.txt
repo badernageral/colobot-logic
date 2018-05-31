@@ -1,8 +1,8 @@
-\b;Objetivo
+\b;Objective
 
 Pegue o explosivo e leve-o para a posição obtida.
 
-\t;Informações úteis
+\t;Instructions
 
 Nesta missão seu robô pode transportar objetos, basta chamar as funções \c;\l;grab\u cbot\grab;\n; (pegar) e \c;\l;drop\u cbot\drop;\n; (largar).
 
@@ -13,11 +13,11 @@ Tenha em mente que se você estiver a mais de 10 metros do posto a solicitação
 
 \const;int \type;a \const; = \token;receive\const;(\type;"info"\const;, \type;100\const;);\norm;
 
-As seguintes funções serão utilizadas nesta missão:
-   \c;\l;grab\u cbot\grab;\n; - pega um objeto;
-   \c;\l;drop\u cbot\drop;\n; - larga um objeto;
-   \c;\l;goto\u cbot\goto;\n; - move-se para a posição informada;
-   \c;\l;receive\u cbot\receive;\n; - solicita informações a um posto;
-   \c;\l;radar\u cbot\radar;\n; - captura informações de um objeto próximo.
+The following functions will be used in this mission:
+   \c;\l;grab\u cbot\grab;\n; grab an object;
+   \c;\l;drop\u cbot\drop;\n; - drop an object;
+   \c;\l;goto\u cbot\goto;\n; - moves to the informed position;
+   \c;\l;receive\u cbot\receive;\n; - requests information from a post;
+   \c;\l;radar\u cbot\radar;\n; - captures information from a nearby object.
 
 

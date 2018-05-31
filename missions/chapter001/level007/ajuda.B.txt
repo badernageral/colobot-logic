@@ -2,7 +2,7 @@
 
 Mova o robô para as posições dos objetos detectados.
 
-\t;Informações úteis
+\t;Instruções
 
 Seu robô consegue detectar objetos próximos com a função \c;\l;radar\u cbot\radar;\n;, com isto em mente, usaremos a função \c;\l;goto\u cbot\goto;\n; para ir até a posição dos objetos detectados.
 

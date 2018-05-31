@@ -1,8 +1,8 @@
-\b;Objetivo
+\b;Objective
 
 Mova o robô de acordo com os valores obtidos.
 
-\t;Informações úteis
+\t;Instructions
 
 Capture 2 valores (do tipo \type;int\norm;) junto ao posto de troca: \type;v1\norm; e \type;v2\norm;.
 
@@ -10,8 +10,8 @@ Realize em sequência:
 1) Se o dobro de \type;v1\norm; for menor ou igual a 50, mova-se 5 metros em direção ao norte; se for maior, mova-se 8 metros em direção ao norte;
 2) Se o produto de \type;v2\norm; por 3 for maior que 15, mova-se 1 metro em direção ao nordeste; se o resto da divisão de \type;v2\norm; por 3 for igual a 0, mova-se 2 metros em direção ao noroeste; se o quociente de \type;v2\norm; por 5 for igual a 1, mova-se 3 metros em direção ao sudoeste; se nada der certo, mova-se 4 metros em direção ao sudeste.
 
-As seguintes funções serão utilizadas nesta missão:
-   \c;\l;move\u cbot\move;\n; - move para frente ou para trás;
-   \c;\l;turn\u cbot\turn;\n; - gira de acordo com o ângulo informado;
-   \c;\l;receive\u cbot\receive;\n; - solicita informações a um posto.
+The following functions will be used in this mission:
+   \c;\l;move\u cbot\move;\n; - moves forward or backward;
+   \c;\l;turn\u cbot\turn;\n; - rotates according to the given angle;
+   \c;\l;receive\u cbot\receive;\n; - requests information from a post.
 

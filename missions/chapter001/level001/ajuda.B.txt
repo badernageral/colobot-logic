@@ -2,7 +2,7 @@
 
 Mova o robô até o alvo utilizando o teclado.
 
-\t;Informações úteis
+\t;Instruções
 
 Utilize as seguintes teclas para movimentar o robô:
 

@@ -2,7 +2,7 @@
 
 Destrua os robôs que estão a menos de 15m de você.
 
-\t;Informações úteis
+\t;Instruções
 
 O categoria dos alvos é \const;TargetBot\norm;.
 

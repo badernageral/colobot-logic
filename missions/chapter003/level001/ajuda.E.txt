@@ -1,8 +1,8 @@
-\b;Objetivo
+\b;Objective
 
 Mova o robô de acordo com os valores obtidos.
 
-\t;Informações úteis
+\t;Instructions
 
 A partir desta missão você irá começar a usar as estruturas \c;\l;for\u cbot\for;\n; e \c;\l;while\u cbot\while;\n;.
 
@@ -18,8 +18,8 @@ Primeiro você deve girar o robô na direção apontada por \type;d\norm;, onde:
 
 Depois de girar o robô, você deve move-lo \type;m\norm; metros.
 
-As seguintes funções serão utilizadas nesta missão:
-   \c;\l;move\u cbot\move;\n; - move para frente ou para trás;
-   \c;\l;turn\u cbot\turn;\n; - gira de acordo com o ângulo informado;
-   \c;\l;receive\u cbot\receive;\n; - solicita informações a um posto.
+The following functions will be used in this mission:
+   \c;\l;move\u cbot\move;\n; - moves forward or backward;
+   \c;\l;turn\u cbot\turn;\n; - rotates according to the given angle;
+   \c;\l;receive\u cbot\receive;\n; - requests information from a post.
 

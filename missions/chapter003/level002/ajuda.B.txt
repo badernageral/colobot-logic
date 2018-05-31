@@ -2,7 +2,7 @@
 
 Mova o robô de acordo com os valores obtidos.
 
-\t;Informações úteis
+\t;Instruções
 
 Este é o mesmo exercício que o anterior, só que dessa vez você não sabe quantas vezes terá que repetir seu código até chegar ao final, desta forma use a estrutura \type;while\norm; com uma condição que sempre será verdadeira, obtendo assim, um laço infinito (saiba que mesmo nesta situação, a instrução \type;break\norm; pode ser utilizada para parar o laço).
 

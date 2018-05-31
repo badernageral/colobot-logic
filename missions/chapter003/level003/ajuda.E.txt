@@ -1,8 +1,8 @@
-\b;Objetivo
+\b;Objective
 
 Colete todas as cruzes azuis.
 
-\t;Informações úteis
+\t;Instructions
 
 A categoria das cruzes azuis é \type;WayPoint\norm;.
 
@@ -10,8 +10,8 @@ Use a função \c;\l;radar\u cbot\radar;\n; para localizar a cruz mais próxima 
 
 Lembre-se que a cruz é um objeto e sua posição pode ser acessada através da propriedade \const;position\norm;.
 
-As seguintes funções serão utilizadas nesta missão:
-   \c;\l;goto\u cbot\goto;\n; - move-se para a posição informada;
-   \c;\l;radar\u cbot\radar;\n; - captura informações de um objeto próximo.
+The following functions will be used in this mission:
+   \c;\l;goto\u cbot\goto;\n; - moves to the informed position;
+   \c;\l;radar\u cbot\radar;\n; - captures information from a nearby object.
 
 

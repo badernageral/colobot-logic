@@ -2,7 +2,7 @@
 
 Mova o robô de acordo com os valores obtidos.
 
-\t;Informações úteis
+\t;Instruções
 
 Capture 3 valores (do tipo \type;int\norm;) junto ao posto de troca: \type;v1\norm;, \type;v2\norm; e \type;v3\norm;.
 

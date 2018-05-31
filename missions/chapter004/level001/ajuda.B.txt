@@ -2,7 +2,7 @@
 
 Detecte as bandeiras e siga as instruções para chegar ao objetivo final.
 
-\t;Informações úteis
+\t;Instruções
 
 A partir dessa missão você vai começar a trabalhar com \c;\l;matrizes\u cbot\array;\n;.
 

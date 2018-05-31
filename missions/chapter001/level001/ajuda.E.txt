@@ -1,8 +1,8 @@
-\b;Objetivo
+\b;Objective
 
 Mova o robô até o alvo utilizando o teclado.
 
-\t;Informações úteis
+\t;Instructions
 
 Utilize as seguintes teclas para movimentar o robô:
 

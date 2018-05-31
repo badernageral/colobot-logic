@@ -2,7 +2,7 @@
 
 Mova o robô até o alvo colentando as cruzes azuis pelo caminho.
 
-\t;Informações úteis
+\t;Instruções
 
 Para coletar as cruzes azuis, basta fazer o robô passar por cima delas.
 

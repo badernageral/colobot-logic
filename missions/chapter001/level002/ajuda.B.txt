@@ -2,7 +2,7 @@
 
 Mova o robô até o alvo utilizando um programa criado por você.
 
-\t;Informações úteis
+\t;Instruções
 
 Para criar um programa clique no botão com o sinal de mais no canto inferior esquerdo de sua tela;
 Para editar o código do programa, selecione-o e clique no botão com as chaves {..};

@@ -2,7 +2,7 @@
 
 Destrua os robôs que estão se movimentando.
 
-\t;Informações úteis
+\t;Instruções
 
 O categoria dos alvos é \const;TargetBot\norm;.
 

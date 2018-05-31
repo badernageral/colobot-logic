@@ -2,7 +2,7 @@
 
 Destrua os robôs, deixe um sobrevivente como testemunha.
 
-\t;Informações úteis
+\t;Instruções
 
 O categoria dos alvos é \const;TargetBot\norm;.
 

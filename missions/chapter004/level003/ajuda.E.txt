@@ -1,8 +1,8 @@
-\b;Objetivo
+\b;Objective
 
 Destrua os robôs que estão a menos de 15m de você.
 
-\t;Informações úteis
+\t;Instructions
 
 O categoria dos alvos é \const;TargetBot\norm;.
 
@@ -28,11 +28,11 @@ Para saber a posição atual do robô, utilize:
 
 \type;point\norm; r = \type;this\norm;.position;
 
-As seguintes funções serão utilizadas nesta missão:
-   \c;\l;turn\u cbot\turn;\n; - gira de acordo com o ângulo informado;
-   \c;\l;fire\u cbot\fire;\n; - atira pela quantidade de tempo informada;
-   \c;\l;distance\u cbot\dist;\n; - calcula a distância entre duas posições;
-   \c;\l;sizeof\u cbot\sizeof;\n; - retorna a quantidade de elementos de uma matriz;
-   \c;\l;radarall\u cbot\radarall;\n; - captura informações de vários objetos próximos;
-   \c;\l;direction\u cbot\direct;\n; - calcula o ângulo de rotação para a posição informada.
+The following functions will be used in this mission:
+   \c;\l;turn\u cbot\turn;\n; - rotates according to the given angle;
+   \c;\l;fire\u cbot\fire;\n; - shoot for the amount of time given;
+   \c;\l;distance\u cbot\dist;\n; - calculates the distance between two positions;
+   \c;\l;sizeof\u cbot\sizeof;\n; - returns the number of elements in an array;
+   \c;\l;radarall\u cbot\radarall;\n; - capture information from multiple nearby objects;
+   \c;\l;direction\u cbot\direct;\n; - calculates the angle of rotation for the given position.
 

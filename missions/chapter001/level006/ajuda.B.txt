@@ -2,7 +2,7 @@
 
 Mova o robô para as posições obtidas
 
-\t;Informações úteis
+\t;Instruções
 
 Você deverá obter as posições do posto com a função \c;\l;receive\u cbot\receive;\n;, criar as variáveis do tipo \c;\l;point\u cbot\point;\n; com os valores obtidos e usar a função \c;\l;goto\u cbot\goto;\n; para ir até essas posições.
 

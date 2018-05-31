@@ -1,14 +1,14 @@
-\b;Objetivo
+\b;Objective
 
 Leve o robô até o fim da espiral.
 
-\t;Informações úteis
+\t;Instructions
 
 Você deve criar uma função simples que utilize \c;\l;turn\u cbot\turn;\n; e \c;\l;move\u cbot\move;\n;, depois chame-a 8 vezes na função principal, cada chamada com um parâmetro diferente.
 
 Se você for um bom programador sua função principal terá apenas 2 linhas de código (excluindo as chaves) e a função que você criar apenas 4.
 
-As seguintes funções serão utilizadas nesta missão:
-   \c;\l;move\u cbot\move;\n; - move para frente ou para trás;
-   \c;\l;turn\u cbot\turn;\n; - gira de acordo com o ângulo informado.
+The following functions will be used in this mission:
+   \c;\l;move\u cbot\move;\n; - moves forward or backward;
+   \c;\l;turn\u cbot\turn;\n; - rotates according to the given angle.
 

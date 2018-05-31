@@ -1,8 +1,8 @@
-\b;Objetivo
+\b;Objective
 
 Mova o robô para uma localização específica.
 
-\t;Informações úteis
+\t;Instructions
 
 A partir desta missão você irá começar a criar suas próprias \c;\l;funções\u cbot\function;\n;.
 
@@ -25,10 +25,10 @@ Perceba que o código acima é a resposta desta missão, restando somente preenc
 
 Enquanto a primeira função não possui parâmetros, a segunda espera como parâmetro as informações obtidas junto ao posto de troca, perceba também que as duas funções retornam valores, ou seja, não esqueça de utilizar a instrução \c;\l;return\u cbot\return;\n;.
 
-As seguintes funções serão utilizadas nesta missão:
-   \c;\l;goto\u cbot\goto;\n; - move-se para a posição informada;
-   \c;\l;receive\u cbot\receive;\n; - solicita informações a um posto;
-   \c;\l;turn\u cbot\turn;\n; - gira de acordo com o ângulo informado;
-   \c;\l;fire\u cbot\fire;\n; - atira pela quantidade de tempo informada.
+The following functions will be used in this mission:
+   \c;\l;goto\u cbot\goto;\n; - moves to the informed position;
+   \c;\l;receive\u cbot\receive;\n; - requests information from a post;
+   \c;\l;turn\u cbot\turn;\n; - rotates according to the given angle;
+   \c;\l;fire\u cbot\fire;\n; - shoot for the amount of time given.
 
 

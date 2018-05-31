@@ -1,8 +1,8 @@
-\b;Objetivo
+\b;Objective
 
 Mova o robô de acordo com os valores obtidos.
 
-\t;Informações úteis
+\t;Instructions
 
 Capture 2 valores (do tipo \type;int\norm;) junto ao posto de troca: \type;m\norm; e \type;d\norm;.
 
@@ -16,8 +16,8 @@ Depois de girar o robô, você deve move-lo \type;m\norm; metros.
 
 Quando seu programa estiver concluído, clique no botão de executar o programa \token;7 vezes\norm; (clique somente quando a execução anterior finalizar).
 
-As seguintes funções serão utilizadas nesta missão:
-   \c;\l;move\u cbot\move;\n; - move para frente ou para trás;
-   \c;\l;turn\u cbot\turn;\n; - gira de acordo com o ângulo informado;
-   \c;\l;receive\u cbot\receive;\n; - solicita informações a um posto.
+The following functions will be used in this mission:
+   \c;\l;move\u cbot\move;\n; - moves forward or backward;
+   \c;\l;turn\u cbot\turn;\n; - rotates according to the given angle;
+   \c;\l;receive\u cbot\receive;\n; - requests information from a post.
 

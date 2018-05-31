@@ -1,8 +1,8 @@
-\b;Objetivo
+\b;Objective
 
 Mova o robô para as posições informadas.
 
-\t;Informações úteis
+\t;Instructions
 
 Você usará variáveis do tipo \c;\l;point\u cbot\point;\n; nesta missão.
 Essa variáveis armazenam uma posição, ou seja, coordenadas x, y e z, veja um exemplo:
@@ -18,7 +18,7 @@ As coordenadas do primeiro ponto são x=-5, y=7.5 e z=0.
 As coordenadas do segundo ponto são x=4, y=12 e z=0.
 Mova o robô para estas coordenadas utilizando a função \c;\l;goto\u cbot\goto;\n;.
 
-As seguintes funções serão utilizadas nesta missão:
-   \c;\l;goto\u cbot\goto;\n; - move-se para a posição informada.
+The following functions will be used in this mission:
+   \c;\l;goto\u cbot\goto;\n; - moves to the informed position.
 
 

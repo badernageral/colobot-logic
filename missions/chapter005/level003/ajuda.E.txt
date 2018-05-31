@@ -1,8 +1,8 @@
-\b;Objetivo
+\b;Objective
 
 Crie uma função que move o robô na direção indicada.
 
-\t;Informações úteis
+\t;Instructions
 
 Veja o código abaixo:
 
@@ -19,8 +19,8 @@ void object::mover(int dis, string dir){
 
 Copie este código e finalize-o criando o corpo da função \type;mover\norm;. O termo \token;object\norm; no nome desta função permite que a mesma tenha acesso as propriedades do robô a partir de \const;this\norm;, o que é fundamental para obter a posição atual do robô.
 
-As seguintes funções serão utilizadas nesta missão:
-   \c;\l;move\u cbot\move;\n; - move para frente ou para trás;
-   \c;\l;turn\u cbot\turn;\n; - gira de acordo com o ângulo informado;
-   \c;\l;direction\u cbot\direct;\n; - calcula o ângulo de rotação para a posição informada.
+The following functions will be used in this mission:
+   \c;\l;move\u cbot\move;\n; - moves forward or backward;
+   \c;\l;turn\u cbot\turn;\n; - rotates according to the given angle;
+   \c;\l;direction\u cbot\direct;\n; - calculates the angle of rotation for the given position.
 
