@@ -32,7 +32,13 @@ Abra o jogo e clique em "Níveis personalizados".
 
 Você pode fazer o download do jogo clicando [aqui](https://colobot.info).
 
+# Screenshot
+
 ![Screenshot](https://github.com/badernageral/colobot-logic/blob/master/screenshot.png)
+
+# Video
+
+[![Demo](http://img.youtube.com/vi/UT3ukg5PJo0/0.jpg)](http://www.youtube.com/watch?v=UT3ukg5PJo0 "Demo")
 
 # colobot-logic
 
