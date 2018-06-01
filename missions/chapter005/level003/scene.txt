@@ -1,7 +1,7 @@
 // Título EN
-Title.E text="Rosa do ventos"
-Resume.E text="Crie a função definitiva para os desorientados."
-ScriptName.E text="Missao3"
+Title.E text="Wind Rose"
+Resume.E text="Create the ultimate function for the disoriented."
+ScriptName.E text="Mission3"
 
 // Título BR
 Title.B text="Rosa do ventos"

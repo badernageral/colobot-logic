@@ -1,7 +1,7 @@
 // Título EN
-Title.E text="Distância letal"
-Resume.E text="Destrua somente alguns alvos."
-ScriptName.E text="Missao3"
+Title.E text="Lethal distance"
+Resume.E text="Destroy only a few targets."
+ScriptName.E text="Mission3"
 
 // Título BR
 Title.B text="Distância letal"

@@ -1,7 +1,7 @@
 // Título EN
-Title.E text="Testes numéricos"
-Resume.E text="Mova o robô de acordo com os valores obtidos."
-ScriptName.E text="Missao2"
+Title.E text="Numerical tests"
+Resume.E text="Move the robot according to the values obtained."
+ScriptName.E text="Mission2"
 
 // Título BR
 Title.B text="Testes numéricos"

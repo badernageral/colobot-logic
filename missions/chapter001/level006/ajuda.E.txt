@@ -1,18 +1,14 @@
-\b;Objetivo
+\b;Objective
 
-Mova o robô para as posições obtidas
+Move the robot to the positions obtained.
 
-\t;Informações úteis
+\t;Instructions
 
-Você deverá obter as posições do posto com a função \c;\l;receive\u cbot\receive;\n;, criar as variáveis do tipo \c;\l;point\u cbot\point;\n; com os valores obtidos e usar a função \c;\l;goto\u cbot\goto;\n; para ir até essas posições.
+You should obtain the positions from the post with the \c;\l;receive\u cbot\receive;\n; function, create variables of type \c;\l;point\u cbot\point;\n; with the values obtained and use the \c;\l;goto\u cbot\goto;\n; function to go to these positions.
 
-O nome das informações que o posto de troca de informação pode fornecer são \type;x1\norm;, \type;y1\norm;, \type;x2\norm;, \type;y2\norm;, \type;x3\norm; e \type;y3\norm;.
-O valor da coordenada \token;z\norm; sempre será 0.
+The name of the information that the information exchange post can provide is \type;x1\norm;, \type;y1\norm;, \type;x2\norm;, \type;y2\norm;, \type;x3\norm; and \type;y3\norm;.
+The value of the \token;z\norm;-coordinate always will be 0.
 
-As seguintes funções serão utilizadas nesta missão:
-   \c;\l;goto\u cbot\goto;\n; - move-se para a posição informada;
-   \c;\l;receive\u cbot\receive;\n; - solicita informações a um posto.
-
-
-
-
+The following functions will be used in this mission:
+   \c;\l;goto\u cbot\goto;\n; - moves to the informed position;
+   \c;\l;receive\u cbot\receive;\n; - requests information from a post.

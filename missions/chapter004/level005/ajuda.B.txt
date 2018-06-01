@@ -2,7 +2,7 @@
 
 Mova o robô para uma localização específica.
 
-\t;Informações úteis
+\t;Instruções
 
 Esta missão possui 3 postos de troca, cada um deles com as mesmas informações: \token;v1\norm;, \token;v2\norm;, \token;v3\norm;, \token;v4\norm; e \token;v5\norm;, totalizando 15 valores diferentes, você pode coletá-los usando a função \c;\l;receive\u cbot\receive;\n; dentro de um laço \type;for\norm;, por exemplo:
 

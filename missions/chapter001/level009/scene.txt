@@ -1,7 +1,7 @@
 // Título EN
-Title.E text="Tiro"
-Resume.E text="Destrua os alvos."
-ScriptName.E text="Missao9"
+Title.E text="Shot"
+Resume.E text="Destroy the targets."
+ScriptName.E text="Mission9"
 
 // Título BR
 Title.B text="Tiro"

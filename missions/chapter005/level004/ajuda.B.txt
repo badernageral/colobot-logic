@@ -2,7 +2,7 @@
 
 Leve o robô até o fim da espiral.
 
-\t;Informações úteis
+\t;Instruções
 
 Você deve criar uma função simples que utilize \c;\l;turn\u cbot\turn;\n; e \c;\l;move\u cbot\move;\n;, depois chame-a 8 vezes na função principal, cada chamada com um parâmetro diferente.
 

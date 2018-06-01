@@ -1,7 +1,7 @@
 // Título EN
-Title.E text="Mar de bandeiras"
-Resume.E text="Detecte as bandeiras e siga as instruções para chegar ao objetivo final."
-ScriptName.E text="Missao1"
+Title.E text="Sea of flags"
+Resume.E text="Detect the flags and follow the instructions to reach the final goal."
+ScriptName.E text="Mission1"
 
 // Título BR
 Title.B text="Mar de bandeiras"

@@ -1,17 +1,17 @@
-\b;Objetivo
+\b;Objective
 
-Destrua os alvos.
+Destroy the targets.
 
-\t;Informações úteis
+\t;Instructions
 
-O categoria dos alvos é \const;TargetBot\norm;.
+The target category is \const;TargetBot\norm;.
 
-Seu robô tem pouca energia, então diminua o tempo de tiro.
+Your robot has very little energy, so slow down the shooting time.
 
-As seguintes funções serão utilizadas nesta missão:
-   \c;\l;turn\u cbot\turn;\n; - gira de acordo com o ângulo informado;
-   \c;\l;fire\u cbot\fire;\n; - atira pela quantidade de tempo informada;
-   \c;\l;radar\u cbot\radar;\n; - captura informações de um objeto próximo;
-   \c;\l;direction\u cbot\direct;\n; - calcula o ângulo de rotação para a posição informada.
+The following functions will be used in this mission:
+   \c;\l;turn\u cbot\turn;\n; - rotates according to the given angle;
+   \c;\l;fire\u cbot\fire;\n; - shoot for the amount of time given;
+   \c;\l;radar\u cbot\radar;\n; - captures information from a nearby object;
+   \c;\l;direction\u cbot\direct;\n; - calculates the angle of rotation for the given position.
 
 

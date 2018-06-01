@@ -2,7 +2,7 @@
 
 Detecte as bandeiras e siga as instruções para chegar ao objetivo final.
 
-\t;Informações úteis
+\t;Instruções
 
 Nesta missão existem vários tipos de bandeiras, suas categorias são:
    - Bandeira azul: \const;BlueFlag\norm;;

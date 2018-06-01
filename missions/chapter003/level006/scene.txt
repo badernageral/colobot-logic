@@ -1,7 +1,7 @@
 // Título EN
-Title.E text="Sniper piedoso"
-Resume.E text="Destrua quase todos os alvos."
-ScriptName.E text="Missao6"
+Title.E text="Pious sniper"
+Resume.E text="Destroy almost all targets."
+ScriptName.E text="Mission6"
 
 // Título BR
 Title.B text="Sniper piedoso"

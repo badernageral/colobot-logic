@@ -1,7 +1,7 @@
 // Título EN
-Title.E text="Sniper de elite"
-Resume.E text="Destrua todos os alvos."
-ScriptName.E text="Missao7"
+Title.E text="Elite sniper"
+Resume.E text="Destroy all targets."
+ScriptName.E text="Mission7"
 
 // Título BR
 Title.B text="Sniper de elite"

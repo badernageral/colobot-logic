@@ -1,7 +1,7 @@
 // Título EN
-Title.E text="Segunda dimensão"
-Resume.E text="Mova o robô para uma localização específica."
-ScriptName.E text="Missao5"
+Title.E text="Second dimension"
+Resume.E text="Move the robot to a specific location."
+ScriptName.E text="Mission5"
 
 // Título BR
 Title.B text="Segunda dimensão"

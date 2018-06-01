@@ -1,13 +1,13 @@
-\b;Objetivo
+\b;Objective
 
-Mova o robô até o alvo utilizando um programa criado por você.
+Move the robot to the target using a program created by you.
 
-\t;Informações úteis
+\t;Instructions
 
-Para criar um programa clique no botão com o sinal de mais no canto inferior esquerdo de sua tela;
-Para editar o código do programa, selecione-o e clique no botão com as chaves {..};
-Para executar o programa, clique no botão com uma "seta".
+To create a program click in the plus button in the lower left corner of your screen;
+To edit the program code, select it and click in the button with the keys {..};
+To run the program, click the button with an "arrow".
 
-As seguintes funções serão utilizadas nesta missão:
-   \c;\l;move\u cbot\move;\n; - move para frente ou para trás;
-   \c;\l;turn\u cbot\turn;\n; - gira de acordo com o ângulo informado.
+The following functions will be used in this mission:
+   \c;\l;move\u cbot\move;\n; - moves forward or backward;
+   \c;\l;turn\u cbot\turn;\n; - rotates according to the given angle.

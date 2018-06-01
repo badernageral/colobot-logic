@@ -2,9 +2,9 @@
 
 Destrua os robôs que estão a menos de 15m de você.
 
-\t;Informações úteis
+\t;Instruções
 
-O categoria dos alvos é \const;TargetBot\norm;.
+A categoria dos alvos é \const;TargetBot\norm;.
 
 Após detectar todos os robôs com \c;\l;radarall\u cbot\radarall;\n; e armazená-los em uma matriz, você deve iterar sobre a matriz (usar um laço para verificar cada elemento), para isto você vai precisar saber quantos elementos a matriz tem usando a função \c;\l;sizeof\u cbot\sizeof;\n;:
 

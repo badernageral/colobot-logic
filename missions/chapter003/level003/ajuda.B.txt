@@ -2,7 +2,7 @@
 
 Colete todas as cruzes azuis.
 
-\t;Informações úteis
+\t;Instruções
 
 A categoria das cruzes azuis é \type;WayPoint\norm;.
 

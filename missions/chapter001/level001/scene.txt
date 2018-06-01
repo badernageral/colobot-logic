@@ -1,7 +1,7 @@
 // Título EN
-Title.E text="Manualmente"
-Resume.E text="Mova o robô até o alvo utilizando o teclado."
-ScriptName.E text="Missao1"
+Title.E text="Manually"
+Resume.E text="Move the robot to the target using the keyboard."
+ScriptName.E text="Mission1"
 
 // Título BR
 Title.B text="Manualmente"

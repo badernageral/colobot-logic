@@ -1,18 +1,18 @@
-\b;Objetivo
+\b;Objective
 
-Mova o robô de acordo com os valores obtidos.
+Move the robot according to the values obtained.
 
-\t;Informações úteis
+\t;Instructions
 
-Capture 3 valores (do tipo \type;int\norm;) junto ao posto de troca: \type;v1\norm;, \type;v2\norm; e \type;v3\norm;.
+Capture 3 values (type \type;int\norm;) from the exchange post: \type;v1\norm;, \type;v2\norm; and \type;v3\norm;.
 
-Realize em sequência:
-1) Se o valor de \type;v1\norm; for positivo, mova 6 metros em direção ao norte; se for negativo, 12 metros em direção ao norte;
-2) Se o valor de \type;v2\norm; for par mova-se 4 metros em direção ao oeste; se for ímpar, 7 metros em direção ao leste;
-3) Se o valor de \type;v3\norm; for múltiplo de 3, mova 2 metros em direção ao norte; se não for múltiplo de 3, 5 metros em direção ao sul.
+Perform in sequence:
+1) If the value of \type;v1\norm; is positive, move 6 meters toward the north; if negative, 12 meters north;
+2) If the value of \type;v2\norm; for pair move 4 meters towards the west; if it is odd, 7 meters towards the east;
+3) If the value of \type;v3\norm; is a multiple of 3, move 2 meters north; if it is not a multiple of 3, 5 meters towards the south.
 
-As seguintes funções serão utilizadas nesta missão:
-   \c;\l;move\u cbot\move;\n; - move para frente ou para trás;
-   \c;\l;turn\u cbot\turn;\n; - gira de acordo com o ângulo informado;
-   \c;\l;receive\u cbot\receive;\n; - solicita informações a um posto.
+The following functions will be used in this mission:
+   \c;\l;move\u cbot\move;\n; - moves forward or backward;
+   \c;\l;turn\u cbot\turn;\n; - rotates according to the given angle;
+   \c;\l;receive\u cbot\receive;\n; - requests information from a post.
 

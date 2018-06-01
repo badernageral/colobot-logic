@@ -1,7 +1,7 @@
 // Título EN
-Title.E text="Hora da coleta"
-Resume.E text="Mova o robô até o alvo coletando as cruzes azuis pelo caminho."
-ScriptName.E text="Missao3"
+Title.E text="Time to collect"
+Resume.E text="Move the robot to the target collecting the blue crosses by the way."
+ScriptName.E text="Mission3"
 
 // Título BR
 Title.B text="Hora da coleta"

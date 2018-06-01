@@ -1,27 +1,27 @@
-\b;Objetivo
+\b;Objective
 
-Detecte as bandeiras e siga as instruções para chegar ao objetivo final.
+Detect the flags and follow the instructions to reach the final goal.
 
-\t;Informações úteis
+\t;Instructions
 
-A partir dessa missão você vai começar a trabalhar com \c;\l;matrizes\u cbot\array;\n;.
+From this mission you will start working with \c;\l;arrays\u cbot\array;\n;.
 
-A função \c;\l;radarall\u cbot\radarall;\n; retorna todos os objetos próximos de acordo com a categoria informada, ou seja, seu retorno é uma matriz de objetos.
-A categoria das bandeiras azuis desta missão é: \type;BlueFlag\norm;. Para detectar todas as bandeiras azuis próximas, use:
+The function \c;\l;radarall\u cbot\radarall;\n; returns all nearby objects according to the given category, that is, their return is an array of objects.
+The category of the blue flags of this mission is: \type;BlueFlag\norm;. To detect all nearby blue flags, use:
 
 \type;object\norm; b[] = \token;radarall\norm;(\const;BlueFlag\norm;);
 
-A variável \type;b\norm; recebe uma matriz com todas as bandeiras, com esta matriz em mãos, faça o seguinte:
+The variable \type;b\norm; receives a array with all the flags, with this array in hand, do the following:
 
-1) Vá até a posição da 10º bandeira contida na matriz;
-2) Vá até a posição da 51º bandeira contida na matriz;
-3) Mova-se 2 metros em direção ao nordeste;
-4) Mova-se 3 metros em direção ao noroeste.
+1) Go to the position of the 10th flag contained in the array;
+2) Go to the position of the 51th flag contained in the array;
+3) Move 2 meters towards the northeast;
+4) Move 3 meters towards the northwest.
 
-As seguintes funções serão utilizadas nesta missão:
-   \c;\l;move\u cbot\move;\n; - move para frente ou para trás;
-   \c;\l;goto\u cbot\goto;\n; - move-se para a posição informada;
-   \c;\l;turn\u cbot\turn;\n; - gira de acordo com o ângulo informado;
-   \c;\l;radarall\u cbot\radarall;\n; - captura informações de vários objetos próximos.
+The following functions will be used in this mission:
+   \c;\l;move\u cbot\move;\n; - moves forward or backward;
+   \c;\l;goto\u cbot\goto;\n; - moves to the informed position;
+   \c;\l;turn\u cbot\turn;\n; - rotates according to the given angle;
+   \c;\l;radarall\u cbot\radarall;\n; - capture information from multiple nearby objects.
 
 

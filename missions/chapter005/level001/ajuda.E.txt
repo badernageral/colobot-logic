@@ -1,34 +1,34 @@
-\b;Objetivo
+\b;Objective
 
-Mova o robô para uma localização específica.
+Move the robot to a specific location.
 
-\t;Informações úteis
+\t;Instructions
 
-A partir desta missão você irá começar a criar suas próprias \c;\l;funções\u cbot\function;\n;.
+From this mission you will begin to create your own \c;\l;functions\u cbot\function;\n;.
 
-Esta missão é igual a missão 5 do capítulo 4, ou seja, você deve capturar as informações dos postos de troca, destruí-los, calcular a posição e mover o robô até lá, porém, como vamos começar a trabalhar com funções, veja o código abaixo:
+This mission is the same as Mission 5 in Chapter 4, that is, you must capture information from the trading posts, destroy them, calculate the position and move the robot there, but as we start working with functions, see the code below:
 
-\const;extern \type;void object\norm;::Missao1()
+\const;extern \type;void object\norm;::Mission1()
 {
-   \type;int\norm; info[][] = coletarInformacao();
-   \type;point\norm; pos = calcularPosicao(info);
+   \type;int\norm; info[][] = collectInformation();
+   \type;point\norm; pos = calculatePosition(info);
    \token;goto\norm;(pos);
 }
-\type;int\norm;[][] coletarInformacao(){
-   // resposta aqui
+\type;int\norm;[][] collectInformation(){
+   // answer here
 }
-\type;point\norm; calcularPosicao(int[][] info){
-   // resposta aqui
+\type;point\norm; calculatePosition(int[][] info){
+   // answer here
 }
 
-Perceba que o código acima é a resposta desta missão, restando somente preencher o conteúdo das funções \type;coletarInformacao\norm; e \type;calcularPosicao\norm;, você pode reutilizar o código da missão que você já resolveu, portanto preste bastante atenção ao código foi escrito, vamos seguir esta estrutura nas próximas missões.
+Note that the code above is the response of this mission, remaining to fill only the contents of the functions \type;collectInformation\norm; and \type;calculatePosition\norm;, you can reuse the code of the mission that you have already solved, so pay close attention to the code was written, we will follow this structure in the next missions.
 
-Enquanto a primeira função não possui parâmetros, a segunda espera como parâmetro as informações obtidas junto ao posto de troca, perceba também que as duas funções retornam valores, ou seja, não esqueça de utilizar a instrução \c;\l;return\u cbot\return;\n;.
+While the first function has no parameters, the second expects as a parameter the information obtained from the exchange post, also notice that the two functions return values, that is, do not forget to use the statement \c;\l;return\u cbot\return;\n;.
 
-As seguintes funções serão utilizadas nesta missão:
-   \c;\l;goto\u cbot\goto;\n; - move-se para a posição informada;
-   \c;\l;receive\u cbot\receive;\n; - solicita informações a um posto;
-   \c;\l;turn\u cbot\turn;\n; - gira de acordo com o ângulo informado;
-   \c;\l;fire\u cbot\fire;\n; - atira pela quantidade de tempo informada.
+The following functions will be used in this mission:
+   \c;\l;goto\u cbot\goto;\n; - moves to the informed position;
+   \c;\l;receive\u cbot\receive;\n; - requests information from a post;
+   \c;\l;turn\u cbot\turn;\n; - rotates according to the given angle;
+   \c;\l;fire\u cbot\fire;\n; - shoot for the amount of time given.
 
 
