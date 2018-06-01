@@ -1,13 +1,13 @@
 \b;Objective
 
-Mova o robô para as posições dos objetos detectados.
+Move the robot to the positions of the objects detected.
 
 \t;Instructions
 
-Seu robô consegue detectar objetos próximos com a função \c;\l;radar\u cbot\radar;\n;, com isto em mente, usaremos a função \c;\l;goto\u cbot\goto;\n; para ir até a posição dos objetos detectados.
+Your robot can detect nearby objects with the \c;\l;radar\u cbot\radar;\n; function, with this in mind, we will use the \c;\l;goto\u cbot\goto;\n; function to move to the position of the detected objects.
 
-Para detectar um objeto você deve informar seu tipo, as cruzes azuis são do tipo \type;WayPoint\norm;.
-Uma variável do tipo \type;object\norm; será utilizada para armazenar as informações do objeto detectado, para acessar a posição utilize a propriedade \type;position\norm;.
+To detect an object you must enter its type, the blue crosses are of type \type;WayPoint\norm;.
+A variable of type \type;object\norm; will be used to store the information of the detected object, to access the position use the \type;position\norm; property.
 
 \const;object \type;a \const; = \token;radar\const;(\type;WayPoint\const;);\norm;
 \const;goto(\type;a.position\const;);\norm;

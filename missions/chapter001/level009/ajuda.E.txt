@@ -1,14 +1,14 @@
 \b;Objective
 
-Destrua os alvos.
+Destroy the targets.
 
 \t;Instructions
 
-Nesta missão seu robô pode atirar, basta chamar a função \c;\l;fire\u cbot\fire;\n;.
+In this mission your robot can shoot, just call the \c;\l;fire\u cbot\fire;\n; function.
 
-Você deve destruir todos os robôs (tipo TargetBot), para isto use a função \c;\l;radar\u cbot\radar;\n; para obter a posição dos robôs, depois use a função \c;\l;direction\u cbot\direct;\n; para calcular quantos graus seu robô deve girar para apontar em direção a posição do robô, gire com a função \c;\l;turn\u cbot\turn;\n; depois \c;\l;atire\u cbot\fire;\n;.
+You must destroy all robots (type TargetBot) by using \c;\l;radar\u cbot\radar;\n; to get the robots position, then use \c;\l;direction\u cbot\direct;\n; to calculate how many degrees your robot should rotate to point toward the robot's position, rotate with \c;\l;turn\u cbot\turn;\n; then \c;\l;fire\u cbot\fire;\n;.
 
-\const;int \type;angulo \const; = \token;direction\const;(\type;alvo.position\const;);\norm;
+\const;int \type;angle \const; = \token;direction\const;(\type;target.position\const;);\norm;
 
 The following functions will be used in this mission:
    \c;\l;turn\u cbot\turn;\n; - rotates according to the given angle;

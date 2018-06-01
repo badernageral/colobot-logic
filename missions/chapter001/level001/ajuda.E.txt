@@ -1,15 +1,16 @@
 \b;Objective
 
-Mova o robô até o alvo utilizando o teclado.
+Move the robot to the target using the keyboard.
 
 \t;Instructions
 
-Utilize as seguintes teclas para movimentar o robô:
+Use the following keys to move the robot:
 
-\key up; - frente;
-\key left; - esquerda;
-\key right; - direita;
-\key down; - trás.
+\key up; - front;
+\key left; - left;
+\key right; - right;
+\key down; - back.
 
-Você deve levar o robô a plataforma do outro lado;
-Tenha em mente que as bombas explodem se você tocar nelas.
+You should take the robot to the platform on the other side.
+
+Keep in mind that the bombs explode if you touch them.

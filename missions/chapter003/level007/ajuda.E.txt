@@ -1,12 +1,12 @@
 \b;Objective
 
-Destrua os alvos.
+Destroy the targets.
 
 \t;Instructions
 
-O categoria dos alvos é \const;TargetBot\norm;.
+The target category is \const;TargetBot\norm;.
 
-Seu robô tem pouca energia, então diminua o tempo de tiro.
+Your robot has very little energy, so slow down the shooting time.
 
 The following functions will be used in this mission:
    \c;\l;turn\u cbot\turn;\n; - rotates according to the given angle;

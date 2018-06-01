@@ -1,6 +1,6 @@
 \b;Objetivo
 
-Mova o robô para as posições obtidas
+Mova o robô para as posições obtidas.
 
 \t;Instruções
 
@@ -12,7 +12,3 @@ O valor da coordenada \token;z\norm; sempre será 0.
 As seguintes funções serão utilizadas nesta missão:
    \c;\l;goto\u cbot\goto;\n; - move-se para a posição informada;
    \c;\l;receive\u cbot\receive;\n; - solicita informações a um posto.
-
-
-
-

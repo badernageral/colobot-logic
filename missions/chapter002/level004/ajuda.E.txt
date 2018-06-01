@@ -1,16 +1,16 @@
 \b;Objective
 
-Mova o robô de acordo com os valores obtidos.
+Move the robot according to the values obtained.
 
 \t;Instructions
 
-Capture 3 valores (do tipo \type;int\norm;) junto ao posto de troca: \type;v1\norm;, \type;v2\norm; e \type;v3\norm;.
+Capture 3 values (type \type;int\norm;) from the exchange post: \type;v1\norm;, \type;v2\norm; and \type;v3\norm;.
 
-Realize em sequência:
-1) Se \type;v1\norm; for maior que 5 ou \type;v2\norm; for menor que 5, mova-se 15 metros em direção ao nordeste; se \type;v2\norm; for par e \type;v3\norm; for ímpar mova-se 10 metros em direção ao norte; caso nada dê certo, mova-se 5 metros em direção ao noroeste;
-1.1) Caso a primeira condição do item 1 seja verdadeira, verifique após se mover se o valor de \type;v1\norm; é == 5, se for mova-se 4 metros para o leste, caso contrário, mova-se 4 metros para o oeste;
-1.2) Caso a segunda condição do item 1 seja verdadeira, verifique após se mover se o valor de \type;v2\norm; é maior ou igual a 10, se for mova-se 3 metros para em direção ao sudoeste, caso contrário, mova-se 3 metros em direção a sudeste;
-1.3) Caso nem a primeira, nem a segunda condição do item 1 sejam verdadeiras, verifique se \type;v3\norm; é menor que 5, se for mova-se 2 metros em direção ao norte, caso contrário mova-se 2 metros em direção ao sul.
+Perform in sequence:
+1) If \type;v1\norm; is greater than 5 or \type;v2\norm; is less than 5, move 15 meters toward the northeast; if \type;v2\norm; is even and \type;v3\norm; is odd, move 10 meters toward the north; if nothing works, move 5 meters toward the northwest;
+1.1) If the first condition of item 1 is true, check after moving if the value of \type;v1\norm; is equal to 5, if true, move 4 meters to the east, otherwise, move 4 meters to the west;
+1.2) If the second condition of item 1 is true, check after moving if the value of \type;v2\norm; is greater than or equal to 10, if true, move 3 meters toward the southwest, otherwise move 3 meters toward the southeast;
+1.3) If neither the first nor the second condition of item 1 are true, check if the value of \type;v3\norm; is less than 5, if true, move 2 meters towards the north, otherwise move 2 meters towards the south.
 
 The following functions will be used in this mission:
    \c;\l;move\u cbot\move;\n; - moves forward or backward;

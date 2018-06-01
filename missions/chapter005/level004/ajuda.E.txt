@@ -1,12 +1,12 @@
 \b;Objective
 
-Leve o robô até o fim da espiral.
+Take the robot to the end of the spiral.
 
 \t;Instructions
 
-Você deve criar uma função simples que utilize \c;\l;turn\u cbot\turn;\n; e \c;\l;move\u cbot\move;\n;, depois chame-a 8 vezes na função principal, cada chamada com um parâmetro diferente.
+You should create a simple function that uses \c;\l;turn\u cbot\turn;\n; and \c;\l;move\u cbot\move;\n;, then call it 8 times in the main function, each call with a different parameter.
 
-Se você for um bom programador sua função principal terá apenas 2 linhas de código (excluindo as chaves) e a função que você criar apenas 4.
+If you are a good programmer your main function will have only 2 lines of code (excluding the braces) and the function you create will have only 4 lines.
 
 The following functions will be used in this mission:
    \c;\l;move\u cbot\move;\n; - moves forward or backward;

@@ -1,12 +1,12 @@
 \b;Objective
 
-Colete as cruzes azuis.
+Collect the blue crosses.
 
 \t;Instructions
 
-Capture a informação \type;qtd\norm; (do tipo \type;int\norm;) junto ao posto de troca.
+Capture the information \type;qtd\norm; (type \type;int\norm;) from the exchange post.
 
-Colete somente a quantidade de cruzes azuis informada no valor de \type;qtd\norm;.
+Collect only the amount of blue crosses reported in the value of \type;qtd\norm;.
 
 The following functions will be used in this mission:
    \c;\l;goto\u cbot\goto;\n; - moves to the informed position;

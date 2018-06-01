@@ -1,14 +1,14 @@
 \b;Objective
 
-Colete a cruz azul correta.
+Collect the correct blue cross.
 
 \t;Instructions
 
-Se o robô coletar a cruz errada a missão irá falhar.
-Basta ajustar o angulo correto e mover o robô para frente.
+If the robot collects the wrong cross the mission will fail.
+Simply adjust the correct angle and move the robot forward.
 
-O posto de troca de informação ao seu lado possui o valor do ângulo correto, basta solicitar esta informação.
-O nome da informação a ser solicitada é "angulo", solicite e armazene em uma variável deste jeito:
+The information exchange at your side has the correct angle value, just ask for this information.
+The name of the information to be requested is "angulo", request and store in a variable like this:
 
 \const;int \type;a \const; = \token;receive\const;(\type;"angulo"\norm;);
 

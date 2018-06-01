@@ -1,24 +1,24 @@
 \b;Objective
 
-Destrua todos os insetos.
+Destroy all insects.
 
 \t;Instructions
 
-Veja o código abaixo:
+See the code below:
 
-\const;extern \type;void object\norm;::Missao2()
+\const;extern \type;void object\norm;::Mission2()
 {
-	eliminarFormigas();
-	eliminarVespas();
-	eliminarAranhas();
+	exterminateAnts();
+	exterminateWasps();
+	exterminateSpiders();
 }
 
-Copie este código e finalize-o criando as 3 funções indicadas acima. Estas funções não retornam nada, então use \type;void\norm; como tipo de retorno da função.
+Copy this code and finalize it by creating the 3 functions indicated above. These functions do not return anything, so use \type;void\norm; as the return type of the function.
 
-As categorias são:
-   - Formiga: \const;AlienAnt\norm;;
-   - Vespa: \const;AlienWasp\norm;;
-   - Aranha: \const;AlienSpider\norm;.
+The categories are:
+   - Ant: \const;AlienAnt\norm;;
+   - Wasp: \const;AlienWasp\norm;;
+   - Spider: \const;AlienSpider\norm;.
 
 The following functions will be used in this mission:
    \c;\l;turn\u cbot\turn;\n; - rotates according to the given angle;

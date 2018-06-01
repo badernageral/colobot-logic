@@ -1,22 +1,22 @@
 \b;Objective
 
-Mova o robô de acordo com os valores obtidos.
+Move the robot according to the values obtained.
 
 \t;Instructions
 
-A partir desta missão você irá começar a usar as estruturas \c;\l;for\u cbot\for;\n; e \c;\l;while\u cbot\while;\n;.
+From this mission you will begin to use the structures \c;\l;for\u cbot\for;\n; and \c;\l;while\u cbot\while;\n;.
 
-Este é o mesmo exercício do capítulo anterior, só que em vez de clicar 7 vezes no botão de executar, você irá colocar seu código dentro de um laço \type;for\norm; que irá rodar 7 vezes.
+This is the same exercise as in the previous chapter, but instead of clicking the execute button 7 times, you will put your code inside a \type;for\norm; loop which will execute 7 times.
 
-Capture 2 valores (do tipo \type;int\norm;) junto ao posto de troca: \type;m\norm; e \type;d\norm;.
+Capture 2 values (type \type;int\norm;) from the exchange post: \type;m\norm; and \type;d\norm;.
 
-Primeiro você deve girar o robô na direção apontada por \type;d\norm;, onde:
-   Norte se \type;d\norm; for igual a 1;
-   Leste se \type;d\norm; for igual a 2;
-   Sul se \type;d\norm; for igual a 3;
-   Oeste se \type;d\norm; for igual a 4;
+First you must rotate the robot in the direction indicated by \type;d\norm;, where:
+   North if \type;d\norm; is equal to 1;
+   East if \type;d\norm; is equal to 2;
+   South if \type;d\norm; is equal to 3;
+   West if \type;d\norm; is equal to 4;
 
-Depois de girar o robô, você deve move-lo \type;m\norm; metros.
+After rotating the robot, you should move it \type;m\norm; meters.
 
 The following functions will be used in this mission:
    \c;\l;move\u cbot\move;\n; - moves forward or backward;

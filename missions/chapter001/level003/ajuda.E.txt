@@ -1,10 +1,10 @@
 \b;Objective
 
-Mova o robô até o alvo colentando as cruzes azuis pelo caminho.
+Move the robot to the target by collecting the blue crosses along the way.
 
 \t;Instructions
 
-Para coletar as cruzes azuis, basta fazer o robô passar por cima delas.
+To collect the blue crosses, just make the robot go over them.
 
 The following functions will be used in this mission:
    \c;\l;move\u cbot\move;\n; - moves forward or backward;

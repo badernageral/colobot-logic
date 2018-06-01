@@ -1,15 +1,15 @@
 \b;Objective
 
-Pegue o explosivo e leve-o para a posição obtida.
+Grab the explosive and take it to the position you have obtained.
 
 \t;Instructions
 
-Nesta missão seu robô pode transportar objetos, basta chamar as funções \c;\l;grab\u cbot\grab;\n; (pegar) e \c;\l;drop\u cbot\drop;\n; (largar).
+In this mission your robot can carry objects, just call the functions \c;\l;grab\u cbot\grab;\n; and \c;\l;drop\u cbot\drop;\n;.
 
-Você deverá detectar o explosivo (tipo TNT) com a função \c;\l;radar\u cbot\radar;\n;, ir até sua posição com a função \c;\l;goto\u cbot\goto;\n;, pegá-lo com a função \c;\l;grab\u cbot\grab;\n;, obter as coordenadas junto ao posto com a função \c;\l;receive\u cbot\receive;\n;, mover-se até essa posição e largar o objeto com a função \c;\l;drop\u cbot\drop;\n;.
+You should detect the explosive (type TNT) with the \c;\l;radar\u cbot\radar;\n; function, go to its position with the function \c;\l;goto\u cbot\goto;\n;, get it with the function \c;\l;grab\u cbot\grab;\n;, get the coordinates next to the post with the function \c;\l;receive\u cbot\receive;\n;, move to that position and drop the object with the \c;\l;drop\u cbot\drop;\n; function.
 
-As informações disponibilizadas pelos posto são: \type;x\norm; e \type;y\norm;.
-Tenha em mente que se você estiver a mais de 10 metros do posto a solicitação não será respondida, a menos que você aumente a distância com um segundo parâmetro, por exemplo, posto a 100 metros de distância:
+The information provided by the station is: \type;x\norm; and \type;y\norm;.
+Keep in mind that if you are more than 10 meters away from the post the request will not be answered unless you increase the distance with a second parameter, for example, post at 100 meters distance:
 
 \const;int \type;a \const; = \token;receive\const;(\type;"info"\const;, \type;100\const;);\norm;
 

@@ -1,34 +1,34 @@
 \b;Objective
 
-Mova o robô para uma localização específica.
+Move the robot to a specific location.
 
 \t;Instructions
 
-Esta missão possui 3 postos de troca, cada um deles com as mesmas informações: \token;v1\norm;, \token;v2\norm;, \token;v3\norm;, \token;v4\norm; e \token;v5\norm;, totalizando 15 valores diferentes, você pode coletá-los usando a função \c;\l;receive\u cbot\receive;\n; dentro de um laço \type;for\norm;, por exemplo:
+This mission has 3 trading posts, each with the same information: \token;v1\norm;, \token;v2\norm;, \token;v3\norm;, \token;v4\norm; and \token;v5\norm;, totaling 15 different values, you can collect them using the \c;\l;receive\u cbot\receive;\n; inside a \type;for\norm; loop, for example:
 
 \type;receive\norm;("v"+\token;i\norm;);
 
-Onde \token;i\norm; é uma variável do tipo \type;int\norm; que vai de 1 até 5 e o operador \type;+\norm; é usado para concatenação.
+Where \token;i\norm; is a variable of type \type;int\norm; which ranges from 1 to 5 and the operator \type;+\norm; is used for concatenation.
 
-O desafio está em resolver utilizando somente as variáveis abaixo:
+The challenge is to solve using only the variables below:
 
 \type;int\norm; \const;info\norm;[3][5], \const;i\norm;, \const;j\norm;;
 \type;point\norm; \const;pos\norm;(0,0,0);
 
-Perceba que \const;info\norm; é uma matriz de duas dimessões, onde a primeira dimensão representa os postos de troca por proximidade ao robô, a segunda dimensão representa os valores de \token;v1\norm; até \token;v5\norm;.
+Notice that \const;info\norm; is a array of two dimensions, where the first dimension represents the exchange stations by proximity to the robot, the second dimension represents the values from \token;v1\norm; to \token;v5\norm;.
 
-Você deve coletar as informações do posto mais próximo com a função \c;\l;receive\u cbot\receive;\n;, depois destruir este posto com a função \c;\l;fire\u cbot\fire;\n;, receber as informações do segundo, destruí-lo, receber as informações do terceiro e destruí-lo (queima de arquivo).
+You should collect the information from the nearest post with the function \c;\l;receive\u cbot\receive;\n;, then destroy this post with the \c;\l;fire\u cbot\fire;\n; function, receive the information from the second, destroy it, receive the information from the third and destroy it (file burning).
 
-Com todas as informações em mãos, basta calcular a posição para onde o robô deve ir.
-Vamos chamar o primeiro posto de A, o segundo de B e o terceiro de C, com isto em mente:
+With all the information at hand, just calculate the position to where the robot should go.
+Let's call the first post of A, the second of B and the third of C, with this in mind:
 
 \token;pos\norm;.\type;x\norm; = Av1 * Bv1 * Cv1 + Av2 * Bv2 * Cv2 + Av3 * Bv3 * Cv3 + Av4 * Bv4 * Cv4 + Av5 * Bv5 * Cv5;
 
 \token;pos\norm;.\type;y\norm; = Av1 / Bv1 / Cv1 - Av2 / Bv2 / Cv2 - Av3 / Bv3 / Cv3 - Av4 / Bv4 / Cv4 - Av5 / Bv5 / Cv5;
 
-Você pode diminuir drasticamente as fórmulas acima utilizando uma estrutura \type;for\norm;.
+You can drastically lower the formulas above by using the \type;for\norm; structure.
 
-Para finalizar a missão basta usar a função \c;\l;goto\u cbot\goto;\n; para ir até \token;pos\norm;.
+To finish the mission, simply use the \c;\l;goto\u cbot\goto;\n; function to go \token;pos\norm;.
 
 The following functions will be used in this mission:
    \c;\l;goto\u cbot\goto;\n; - moves to the informed position;

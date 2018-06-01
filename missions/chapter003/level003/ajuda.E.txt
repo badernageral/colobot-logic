@@ -1,14 +1,14 @@
 \b;Objective
 
-Colete todas as cruzes azuis.
+Collect all the blue crosses.
 
 \t;Instructions
 
-A categoria das cruzes azuis é \type;WayPoint\norm;.
+The category of blue crosses is \type;WayPoint\norm;.
 
-Use a função \c;\l;radar\u cbot\radar;\n; para localizar a cruz mais próxima e mova-se até ela com a instrução \c;\l;goto\u cbot\goto;\n;.
+Use the \c;\l;radar\u cbot\radar;\n; function to locate the nearest cross and move to it with \c;\l;goto\u cbot\goto;\n;.
 
-Lembre-se que a cruz é um objeto e sua posição pode ser acessada através da propriedade \const;position\norm;.
+Remember that the cross is an object and its position can be accessed through the \const;position\norm; property.
 
 The following functions will be used in this mission:
    \c;\l;goto\u cbot\goto;\n; - moves to the informed position;

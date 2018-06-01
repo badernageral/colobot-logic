@@ -11,5 +11,6 @@ Utilize as seguintes teclas para movimentar o robô:
 \key right; - direita;
 \key down; - trás.
 
-Você deve levar o robô a plataforma do outro lado;
+Você deve levar o robô a plataforma do outro lado.
+
 Tenha em mente que as bombas explodem se você tocar nelas.

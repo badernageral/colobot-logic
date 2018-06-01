@@ -1,14 +1,14 @@
 \b;Objective
 
-Mova o robô de acordo com os valores obtidos.
+Move the robot according to the values obtained.
 
 \t;Instructions
 
-Capture 2 valores (do tipo \type;int\norm;) junto ao posto de troca: \type;v1\norm; e \type;v2\norm;.
+Capture 2 values (type \type;int\norm;) from the exchange: \type;v1\norm; and \type;v2\norm;.
 
-Realize em sequência:
-1) Se o dobro de \type;v1\norm; for menor ou igual a 50, mova-se 5 metros em direção ao norte; se for maior, mova-se 8 metros em direção ao norte;
-2) Se o produto de \type;v2\norm; por 3 for maior que 15, mova-se 1 metro em direção ao nordeste; se o resto da divisão de \type;v2\norm; por 3 for igual a 0, mova-se 2 metros em direção ao noroeste; se o quociente de \type;v2\norm; por 5 for igual a 1, mova-se 3 metros em direção ao sudoeste; se nada der certo, mova-se 4 metros em direção ao sudeste.
+Perform in sequence:
+1) If double of \type;v1\norm; is less than or equal to 50, move 5 meters north; if larger, move 8 meters north;
+2) If the product of \type;v2\norm; by 3 is greater than 15, move 1 meter toward the northeast; if the rest of the division of \type;v2\norm; by 3 equals 0, move 2 meters toward the northwest; if the quotient of \type;v2\norm; by 5 equals 1, move 3 meters toward the southwest; if nothing works, move 4 meters toward the southeast.
 
 The following functions will be used in this mission:
    \c;\l;move\u cbot\move;\n; - moves forward or backward;

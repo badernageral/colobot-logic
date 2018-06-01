@@ -1,23 +1,23 @@
 \b;Objective
 
-Crie uma função que move o robô na direção indicada.
+Create a function that moves the robot in the indicated direction.
 
 \t;Instructions
 
-Veja o código abaixo:
+See the code below:
 
-\const;extern \type;void object\norm;::Missao3()
+\const;extern \type;void object\norm;::Mission3()
 {
-   mover(10, "norte");
-   mover(5, "leste");
-   mover(5, "sul");
-   mover(10, "oeste");
+   moveTo(10, "north");
+   moveTo(5, "east");
+   moveTo(5, "south");
+   moveTo(10, "west");
 }
 void object::mover(int dis, string dir){
-   // sua resposta aqui
+   // you answer here
 }
 
-Copie este código e finalize-o criando o corpo da função \type;mover\norm;. O termo \token;object\norm; no nome desta função permite que a mesma tenha acesso as propriedades do robô a partir de \const;this\norm;, o que é fundamental para obter a posição atual do robô.
+Copy this code and end it by creating the body of the \type;moveTo\norm; function. The \token;object\norm; in the name of this function allows it to access the properties of the robot from \const;this\norm;, which is fundamental to obtain the current position of the robot.
 
 The following functions will be used in this mission:
    \c;\l;move\u cbot\move;\n; - moves forward or backward;

@@ -1,14 +1,14 @@
 \b;Objective
 
-Mova o robô de acordo com os valores obtidos.
+Move the robot according to the values obtained.
 
 \t;Instructions
 
-A partir desta missão você irá começar a usar a estrutura \c;\l;if/else\u cbot\if;\n;
+From this mission you will begin to use the structure \c;\l;if/else\u cbot\if;\n;
 
-Capture o valor de \type;v1\norm; (do tipo \type;int\norm;) junto ao posto de troca.
+Capture the value of \type;v1\norm; (type \type;int\norm;) from the exchange post.
 
-1) Se o valor de \type;v1\norm; for maior ou igual a 5, mova 5 metros em direção ao norte; se for menor que 5, mova-se 5 metros em direção ao leste;
+1) If the value of \type;v1\norm; is greater than or equal to 5, move 5 meters north; if it is less than 5, move 5 meters toward the east;
 
 The following functions will be used in this mission:
    \c;\l;move\u cbot\move;\n; - moves forward or backward;

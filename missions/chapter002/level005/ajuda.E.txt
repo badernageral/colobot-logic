@@ -1,20 +1,20 @@
 \b;Objective
 
-Mova o robô de acordo com os valores obtidos.
+Move the robot according to the values obtained.
 
 \t;Instructions
 
-Capture 2 valores (do tipo \type;int\norm;) junto ao posto de troca: \type;m\norm; e \type;d\norm;.
+Capture 2 values (type \type;int\norm;) from the exchange post: \type;m\norm; and \type;d\norm;.
 
-Primeiro você deve girar o robô na direção apontada por \type;d\norm;, onde:
-   Norte se \type;d\norm; for igual a 1;
-   Leste se \type;d\norm; for igual a 2;
-   Sul se \type;d\norm; for igual a 3;
-   Oeste se \type;d\norm; for igual a 4;
+First you must rotate the robot in the direction indicated by \type;d\norm;, where:
+   North if \type;d\norm; is equal to 1;
+   East if \type;d\norm; is equal to 2;
+   South if \type;d\norm; is equal to 3;
+   West if \type;d\norm; is equal to 4;
 
-Depois de girar o robô, você deve move-lo \type;m\norm; metros.
+After rotating the robot, you should move it \type;m\norm; meters.
 
-Quando seu programa estiver concluído, clique no botão de executar o programa \token;7 vezes\norm; (clique somente quando a execução anterior finalizar).
+When your program is finished, click \token;7 times\norm; in the button to run the program  (click only when the previous run ends).
 
 The following functions will be used in this mission:
    \c;\l;move\u cbot\move;\n; - moves forward or backward;

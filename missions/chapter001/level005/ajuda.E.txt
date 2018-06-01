@@ -1,22 +1,22 @@
 \b;Objective
 
-Mova o robô para as posições informadas.
+Move the robot to the informed positions.
 
 \t;Instructions
 
-Você usará variáveis do tipo \c;\l;point\u cbot\point;\n; nesta missão.
-Essa variáveis armazenam uma posição, ou seja, coordenadas x, y e z, veja um exemplo:
+You will use variables of type \c;\l;point\u cbot\point;\n; in this mission.
+These variables store a position, that is, x, y, and z coordinates, see an example:
 
 \const;point \type;a \const;(\type;10, 20, 30\const;);\norm;
 
-Onde x=10, y=20 e z=30.
-x representa direita (+) ou esquerda (-)
-y representa frente (+) ou trás (-)
-z representa cima (+) ou baixo (-)
+Where x=10, y=20 and z=30.
+x represents right (+) or left (-)
+y represents front (+) or back (-)
+z represents up (+) or down (-)
 
-As coordenadas do primeiro ponto são x=-5, y=7.5 e z=0.
-As coordenadas do segundo ponto são x=4, y=12 e z=0.
-Mova o robô para estas coordenadas utilizando a função \c;\l;goto\u cbot\goto;\n;.
+The coordinates of the first point are x=-5, y=7.5 e z=0.
+The coordinates of the second point are x=4, y=12 e z=0.
+Move the robot to these coordinates using the \c;\l;goto\u cbot\goto;\n; function.
 
 The following functions will be used in this mission:
    \c;\l;goto\u cbot\goto;\n; - moves to the informed position.

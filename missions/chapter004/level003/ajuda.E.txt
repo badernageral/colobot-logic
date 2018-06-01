@@ -1,19 +1,19 @@
 \b;Objective
 
-Destrua os robôs que estão a menos de 15m de você.
+Destroy the robots that are less than 15m from you.
 
 \t;Instructions
 
-O categoria dos alvos é \const;TargetBot\norm;.
+The target category is \const;TargetBot\norm;.
 
-Após detectar todos os robôs com \c;\l;radarall\u cbot\radarall;\n; e armazená-los em uma matriz, você deve iterar sobre a matriz (usar um laço para verificar cada elemento), para isto você vai precisar saber quantos elementos a matriz tem usando a função \c;\l;sizeof\u cbot\sizeof;\n;:
+After detecting all robots with \c;\l;radarall\u cbot\radarall;\n; and store them in an array, you must iterate over the array (use a loop to check each element), for this you will need to know how many elements the array has using the function \c;\l;sizeof\u cbot\sizeof;\n;:
 
 \type;int\norm; a[] = {1,1,1,1,1};
 \type;int\norm; b = \token;sizeof\norm;(a);
 
-O valor de \token;b\norm; será 5.
+The value of \token;b\norm; is 5.
 
-Para calcular a distância entre duas posições use a função \c;\l;distance\u cbot\dist;\n;, por exemplo:
+To calculate the distance between two positions use the function \c;\l;distance\u cbot\dist;\n;, for example:
 
 \type;point\norm; a(5,5,0);
 \type;point\norm; b;
@@ -22,9 +22,9 @@ b.y = 10;
 b.z = 0;
 \type;float\norm; c = \token;distance\norm;(a,b);
 
-O valor de \token;c\norm; será ~7 metros (7.071067812).
+The value of \token;c\norm; is ~7 meters (7.071067812).
 
-Para saber a posição atual do robô, utilize:
+To know the current position of the robot, use:
 
 \type;point\norm; r = \type;this\norm;.position;
 
