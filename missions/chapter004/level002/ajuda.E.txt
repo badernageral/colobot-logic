@@ -1,34 +1,34 @@
-\b;Objetivo
+\b;Objective
 
-Detecte as bandeiras e siga as instruções para chegar ao objetivo final.
+Detect the flags and follow the instructions to reach the final goal.
 
-\t;Informações úteis
+\t;Instructions
 
-Nesta missão existem vários tipos de bandeiras, suas categorias são:
-   - Bandeira azul: \const;BlueFlag\norm;;
-   - Bandeira vermelha: \const;RedFlag\norm;;
-   - Bandeira verde: \const;GreenFlag\norm;;
-   - Bandeira amarela: \const;YellowFlag\norm;;
-   - Bandeira violeta: \const;VioletFlag\norm;.
+In this mission there are several types of flags, their categories are:
+   - Blue flag: \const;BlueFlag\norm;;
+   - Red flag: \const;RedFlag\norm;;
+   - Green flag: \const;GreenFlag\norm;;
+   - Yellow flag: \const;YellowFlag\norm;;
+   - Violet flag: \const;VioletFlag\norm;.
 
-A função \c;\l;radarall\u cbot\radarall;\n; pode detectar mais de um tipo de objeto, basta informar uma matriz de categorias ao chamar a função. Sabendo que uma categoria é uma constante do tipo \type;int\norm;:
+The function \c;\l;radarall\u cbot\radarall;\n; can detect more than one type of object, simply inform an array of categories when calling the function. Knowing that a category is a constant of type \type;int\norm;:
 
 \type;int\norm; cat[2];
 cat[0] = \const;TNT\norm;;
 cat[1] = \const;BlackBox\norm;;
 \type;object\norm;[] bt = \token;radarall\norm;(cat);
 
-A variável \type;bt\norm; irá conter todos os explosivos (\const;TNT\norm;) e caixas pretas (\const;BlackBox\norm;) próximas, com isso em mente, após detectar todas as bandeiras e armazená-las em uma única matriz, faça o seguinte:
+The variable \type;bt\norm; will contain all the explosives (\const;TNT\norm;) and black boxes (\const;BlackBox\norm;) nearby, with this in mind, after detecting all the flags and storing them in a single array, do the following:
 
-1) Vá até a posição da 24º bandeira contida na matriz;
-2) Vá até a posição da 52º bandeira contida na matriz;
-3) Mova-se 2 metros em direção ao noroeste;
-4) Mova-se 3 metros em direção ao nordeste.
+1) Go to the position of the 24th flag contained in the array;
+2) Go to the position of the 52th flag contained in the array;
+3) Move 2 meters towards the northwest;
+4) Move 3 meters towards the northeast.
 
-As seguintes funções serão utilizadas nesta missão:
-   \c;\l;move\u cbot\move;\n; - move para frente ou para trás;
-   \c;\l;goto\u cbot\goto;\n; - move-se para a posição informada;
-   \c;\l;turn\u cbot\turn;\n; - gira de acordo com o ângulo informado;
-   \c;\l;radarall\u cbot\radarall;\n; - captura informações de vários objetos próximos.
+The following functions will be used in this mission:
+   \c;\l;move\u cbot\move;\n; - moves forward or backward;
+   \c;\l;goto\u cbot\goto;\n; - moves to the informed position;
+   \c;\l;turn\u cbot\turn;\n; - rotates according to the given angle;
+   \c;\l;radarall\u cbot\radarall;\n; - capture information from multiple nearby objects.
 
 

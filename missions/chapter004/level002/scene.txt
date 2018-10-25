@@ -1,7 +1,7 @@
 // Título EN
-Title.E text="Jardim de bandeiras"
-Resume.E text="Detecte as bandeiras e siga as instruções para chegar ao objetivo final."
-ScriptName.E text="Missao2"
+Title.E text="Flags garden"
+Resume.E text="Detect the flags and follow the instructions to reach the final goal."
+ScriptName.E text="Mission2"
 
 // Título BR
 Title.B text="Jardim de bandeiras"

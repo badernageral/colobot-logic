@@ -2,7 +2,7 @@
 
 Pegue o explosivo e leve-o para a posição obtida.
 
-\t;Informações úteis
+\t;Instruções
 
 Nesta missão seu robô pode transportar objetos, basta chamar as funções \c;\l;grab\u cbot\grab;\n; (pegar) e \c;\l;drop\u cbot\drop;\n; (largar).
 

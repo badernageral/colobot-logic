@@ -1,7 +1,7 @@
 // Título EN
-Title.E text="Obtendo informação"
-Resume.E text="Colete a cruz azul correta."
-ScriptName.E text="Missao4"
+Title.E text="Getting information"
+Resume.E text="Collect the correct blue cross."
+ScriptName.E text="Mission4"
 
 // Título BR
 Title.B text="Obtendo informação"

@@ -2,7 +2,7 @@
 
 Mova o robô de acordo com os valores obtidos.
 
-\t;Informações úteis
+\t;Instruções
 
 A partir desta missão você irá começar a usar a estrutura \c;\l;if/else\u cbot\if;\n;
 

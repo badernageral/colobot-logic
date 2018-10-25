@@ -1,18 +1,18 @@
-\b;Objetivo
+\b;Objective
 
-Destrua os robôs que estão se movimentando.
+Destroy the robots that are moving.
 
-\t;Informações úteis
+\t;Instructions
 
-O categoria dos alvos é \const;TargetBot\norm;.
+The target category is \const;TargetBot\norm;.
 
-Para saber se um robô está se movendo, basta armazenar em uma variável a posição atual dele, esperar 1 segundo com a função \c;\l;wait\u cbot\wait;\n;, depois verificar se a posição atual é igual a de 1 segundo atrás, se for diferente, ele se moveu e deve ser eliminado.
+To know if a robot is moving, just store its current position in a variable, wait 1 second with the function \c;\l;wait\u cbot\wait;\n;, then check if the current position is the same 1 second ago, if it is different, it has moved and should be eliminated.
 
-As seguintes funções serão utilizadas nesta missão:
-   \c;\l;turn\u cbot\turn;\n; - gira de acordo com o ângulo informado;
-   \c;\l;fire\u cbot\fire;\n; - atira pela quantidade de tempo informada;
-   \c;\l;wait\u cbot\wait;\n; - espera um determinado tempo em segundos;
-   \c;\l;sizeof\u cbot\sizeof;\n; - retorna a quantidade de elementos de uma matriz;
-   \c;\l;radarall\u cbot\radarall;\n; - captura informações de vários objetos próximos;
-   \c;\l;direction\u cbot\direct;\n; - calcula o ângulo de rotação para a posição informada.
+The following functions will be used in this mission:
+   \c;\l;turn\u cbot\turn;\n; - rotates according to the given angle;
+   \c;\l;fire\u cbot\fire;\n; - shoot for the amount of time given;
+   \c;\l;wait\u cbot\wait;\n; - wait a certain time in seconds;
+   \c;\l;sizeof\u cbot\sizeof;\n; - returns the number of elements in an array;
+   \c;\l;radarall\u cbot\radarall;\n; - capture information from multiple nearby objects;
+   \c;\l;direction\u cbot\direct;\n; - calculates the angle of rotation for the given position.
 

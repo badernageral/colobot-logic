@@ -1,7 +1,7 @@
 // Título EN
 Title.E text="Radar"
-Resume.E text="Mova o robô para as posições dos objetos detectados."
-ScriptName.E text="Missao7"
+Resume.E text="Move the robot to the positions of the detected objects."
+ScriptName.E text="Mission7"
 
 // Título BR
 Title.B text="Radar"

@@ -1,7 +1,7 @@
 // Título EN
 Title.E text="Sniper"
-Resume.E text="Destrua todos os alvos."
-ScriptName.E text="Missao5"
+Resume.E text="Destroy all targets."
+ScriptName.E text="Mission5"
 
 // Título BR
 Title.B text="Sniper"

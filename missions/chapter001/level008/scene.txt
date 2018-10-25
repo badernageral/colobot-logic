@@ -1,7 +1,7 @@
 // Título EN
-Title.E text="Transporte"
-Resume.E text="Pegue o explosivo e leve-o para a posição obtida."
-ScriptName.E text="Missao8"
+Title.E text="Transport"
+Resume.E text="Take the explosive and take it to the obtained position."
+ScriptName.E text="Mission8"
 
 // Título BR
 Title.B text="Transporte"

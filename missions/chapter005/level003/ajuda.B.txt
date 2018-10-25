@@ -2,7 +2,7 @@
 
 Crie uma função que move o robô na direção indicada.
 
-\t;Informações úteis
+\t;Instruções
 
 Veja o código abaixo:
 

@@ -2,7 +2,7 @@
 
 Colete a cruz azul correta.
 
-\t;Informações úteis
+\t;Instruções
 
 Se o robô coletar a cruz errada a missão irá falhar.
 Basta ajustar o angulo correto e mover o robô para frente.

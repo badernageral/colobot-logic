@@ -1,7 +1,7 @@
 // Título EN
-Title.E text="Campo minado"
-Resume.E text="Leve o robô até o fim da espiral."
-ScriptName.E text="Missao4"
+Title.E text="Minefield"
+Resume.E text="Take the robot to the end of the spiral."
+ScriptName.E text="Mission4"
 
 // Título BR
 Title.B text="Campo minado"

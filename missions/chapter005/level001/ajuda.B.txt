@@ -2,7 +2,7 @@
 
 Mova o robô para uma localização específica.
 
-\t;Informações úteis
+\t;Instruções
 
 A partir desta missão você irá começar a criar suas próprias \c;\l;funções\u cbot\function;\n;.
 

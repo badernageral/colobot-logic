@@ -2,9 +2,9 @@
 
 Destrua os robôs, deixe um sobrevivente como testemunha.
 
-\t;Informações úteis
+\t;Instruções
 
-O categoria dos alvos é \const;TargetBot\norm;.
+A categoria dos alvos é \const;TargetBot\norm;.
 
 As seguintes funções serão utilizadas nesta missão:
    \c;\l;turn\u cbot\turn;\n; - gira de acordo com o ângulo informado;

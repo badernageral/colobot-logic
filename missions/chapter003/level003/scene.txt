@@ -1,7 +1,7 @@
 // Título EN
-Title.E text="Coletor profissional"
-Resume.E text="Colete todas as cruzes azuis."
-ScriptName.E text="Missao3"
+Title.E text="Professional Collector"
+Resume.E text="Collect all the blue crosses."
+ScriptName.E text="Mission3"
 
 // Título BR
 Title.B text="Coletor profissional"

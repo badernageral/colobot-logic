@@ -2,9 +2,9 @@
 
 Destrua os alvos.
 
-\t;Informações úteis
+\t;Instruções
 
-O categoria dos alvos é \const;TargetBot\norm;.
+A categoria dos alvos é \const;TargetBot\norm;.
 
 Seu robô tem pouca energia, então diminua o tempo de tiro.
 

@@ -2,7 +2,7 @@
 
 Colete as cruzes azuis.
 
-\t;Informações úteis
+\t;Instruções
 
 Capture a informação \type;qtd\norm; (do tipo \type;int\norm;) junto ao posto de troca.
 

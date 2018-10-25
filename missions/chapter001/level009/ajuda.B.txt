@@ -2,7 +2,7 @@
 
 Destrua os alvos.
 
-\t;Informações úteis
+\t;Instruções
 
 Nesta missão seu robô pode atirar, basta chamar a função \c;\l;fire\u cbot\fire;\n;.
 

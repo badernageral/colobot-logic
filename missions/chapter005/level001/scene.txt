@@ -1,7 +1,7 @@
 // Título EN
-Title.E text="Funções"
-Resume.E text="Mova o robô para uma localização específica utilizando suas próprias funções."
-ScriptName.E text="Missao1"
+Title.E text="Functions"
+Resume.E text="Move the robot to a specific location using your own functions."
+ScriptName.E text="Mission1"
 
 // Título BR
 Title.B text="Funções"
