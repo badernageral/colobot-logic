@@ -24,6 +24,10 @@ Caso a pasta ```custom``` não exista dentro da pasta ```levels```, você deve c
 
 Note que no final, a pasta ```custom``` terá somente pastas no estilo ```chapter00X```, onde ```X``` representa o número do capítulo.
 
+Por exemplo:
+mkdir /usr/share/games/colobot/levels/custom
+cp -R missions/* /usr/share/games/colobot/levels/custom
+
 # Como usar?
 Abra o jogo e clique em "Níveis personalizados".
 
@@ -58,6 +62,11 @@ Download the repository by clicking [here](https://github.com/badernageral/colob
 If the ```custom``` folder does not exist inside the ```levels``` folder, you must create it.
 
 Note that in the end, the ```custom``` folder will only have ```chapter00X``` style folders, where ```X``` represents the chapter number.
+
+For example:
+mkdir /usr/share/games/colobot/levels/custom
+cp -R missions/* /usr/share/games/colobot/levels/custom
+
 
 # How to use?
 Open the game and click in "Custom levels".
