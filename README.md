@@ -22,13 +22,14 @@ Você encontrará 30 missões divididas em 5 capítulos conforme a tabela abaixo
 
 Faça download do repositório clicando [aqui](https://github.com/badernageral/colobot-logic/archive/master.zip) e coloque o conteúdo da pasta ```missions``` dentro da pasta ```pasta_dados_colobot/levels/custom```, onde a pasta de dados do colobot é onde o jogo está instalado. 
 
-Caso a pasta ```custom``` não exista dentro da pasta ```levels```, você deve criá-la. 
+Caso a pasta ```custom``` não exista dentro da pasta ```levels```, você deve criá-la. Por exemplo:
 
-Note que no final, a pasta ```custom``` terá somente pastas no estilo ```chapter00X```, onde ```X``` representa o número do capítulo.
-
-Por exemplo:
+```
 mkdir /usr/share/games/colobot/levels/custom
 cp -R missions/* /usr/share/games/colobot/levels/custom
+```
+
+Note que no final, a pasta ```custom``` terá somente pastas no estilo ```chapter00X```, onde ```X``` representa o número do capítulo.
 
 # Como usar?
 
@@ -68,14 +69,15 @@ You will find 30 missions divided into 5 chapters according to the table below:
 
 Download the repository by clicking [here](https://github.com/badernageral/colobot-logic/archive/master.zip) and put the contents of the ```missions``` folder into the ```colobot_data_folder/levels/custom```, where the colobot data folder is where the game is installed.
 
-If the ```custom``` folder does not exist inside the ```levels``` folder, you must create it.
+If the ```custom``` folder does not exist inside the ```levels``` folder, you must create it. For example:
 
-Note that in the end, the ```custom``` folder will only have ```chapter00X``` style folders, where ```X``` represents the chapter number.
 
-For example:
+```
 mkdir /usr/share/games/colobot/levels/custom
 cp -R missions/* /usr/share/games/colobot/levels/custom
+```
 
+Note that in the end, the ```custom``` folder will only have ```chapter00X``` style folders, where ```X``` represents the chapter number.
 
 # How to use?
 
