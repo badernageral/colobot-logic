@@ -1,0 +1,37 @@
+\b;Solução
+\c;
+\s;extern void object::Missao4()
+\s;{
+\s;	int v1 = receive("v1");
+\s;	int v2 = receive("v2");
+\s;	int v3 = receive("v3");
+\s;	if(v1>5 or v2<5){
+\s;		turn(-45);
+\s;		move(15);
+\s;		if(v1==5){
+\s;			turn(-45);
+\s;		}else{
+\s;			turn(135);
+\s;		}
+\s;		move(4);
+\s;	}else if(v2%2==0 and v3%2!=0){
+\s;		move(10);
+\s;		if(v2>=10){
+\s;			turn(135);
+\s;		}else{
+\s;			turn(-135);
+\s;		}
+\s;		move(3);
+\s;	}else{
+\s;		turn(45);
+\s;		move(5);
+\s;		if(v3<5){
+\s;			turn(-45);
+\s;			move(2);
+\s;		}else{
+\s;			turn(135);
+\s;			move(2);
+\s;		}
+\s;	}
+\s;}
+\n;

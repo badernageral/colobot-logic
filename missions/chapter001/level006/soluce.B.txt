@@ -1,0 +1,18 @@
+\b;Solução
+\c;
+\s;extern void object::Missao6()
+\s;{
+\s;	int x1 = receive("x1");
+\s;	int x2 = receive("x2");
+\s;	int x3 = receive("x3");
+\s;	int y1 = receive("y1");
+\s;	int y2 = receive("y2");
+\s;	int y3 = receive("y3");
+\s;	point a(x1, y1, 0);
+\s;	point b(x2, y2, 0);
+\s;	point c(x3, y3, 0);
+\s;	goto(a);
+\s;	goto(b);
+\s;	goto(c);
+\s;}
+\n;

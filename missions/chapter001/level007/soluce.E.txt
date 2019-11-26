@@ -1,0 +1,12 @@
+\b;Solution
+\c;
+\s;extern void object::Mission7()
+\s;{
+\s;	object a  = radar(WayPoint);
+\s;	goto(a.position);
+\s;	object b  = radar(WayPoint);
+\s;	goto(b.position);
+\s;	object c  = radar(WayPoint);
+\s;	goto(c.position);
+\s;}
+\n;

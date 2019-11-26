@@ -1,0 +1,13 @@
+\b;Solution
+\c;
+\s;extern void object::Mission6()
+\s;{
+\s;	for(int i=0;i<6;i++){
+\s;		object bot = radar(TargetBot);
+\s;		point pos = bot.position;
+\s;		int dir = direction(pos);
+\s;		turn(dir);
+\s;		fire(0.5);
+\s;	}
+\s;}
+\n;

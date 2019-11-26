@@ -1,0 +1,15 @@
+\b;Solução
+\c;
+\s;extern void object::Missao4()
+\s;{
+\s;	for(int i=3;i<=10;i++){
+\s;		andar(i);
+\s;	}
+\s;}
+\s;void andar(int m){
+\s;	move(m);
+\s;	turn(45);
+\s;	move(m);
+\s;	turn(45);
+\s;}
+\n;

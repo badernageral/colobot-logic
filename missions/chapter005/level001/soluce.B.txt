@@ -1,0 +1,29 @@
+\b;Solução
+\c;
+\s;extern void object::Missao1()
+\s;{
+\s;	int info[][] = coletarInformacao();
+\s;	point pos = calcularPosicao(info);
+\s;	goto(pos);
+\s;}
+\s;int[][] coletarInformacao(){
+\s;	int info[3][5], i, j;
+\s;	for(i=0;i<3;i++){
+\s;		for(j=1;j<=5;j++){
+\s;			info[i][j-1] = receive("v"+j);
+\s;		}
+\s;		object r = radar(ExchangePost);
+\s;		turn(direction(r.position));
+\s;		fire(0.5);
+\s;	}
+\s;	return info;
+\s;}
+\s;point calcularPosicao(int[][] info){
+\s;	point pos(0,0,0);
+\s;	for(i=0;i<5;i++){
+\s;		pos.x += info[0][i] * info[1][i] * info[2][i];
+\s;		pos.y -= info[0][i] / info[1][i] / info[2][i];
+\s;	}
+\s;	return point;
+\s;}
+\n;

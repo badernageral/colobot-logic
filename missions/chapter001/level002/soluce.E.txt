@@ -1,0 +1,11 @@
+\b;Solution
+\c;
+\s;extern void object::Mission2()
+\s;{
+\s;     move(15);
+\s;     turn(45);
+\s;     move(14);
+\s;     turn(-90);
+\s;     move(14);
+\s;}
+\n;

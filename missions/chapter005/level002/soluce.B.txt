@@ -1,0 +1,30 @@
+\b;Solução
+\c;
+\s;extern void object::Missao2()
+\s;{
+\s;	eliminarFormigas();
+\s;	eliminarVespas();
+\s;	eliminarAranhas();
+\s;}
+\s;void eliminarFormigas(){
+\s;	object[] f = radarall(AlienAnt);
+\s;	for(int i=0;i<sizeof(f);i++){
+\s;		turn(direction(f[i].position));
+\s;		fire(0.1);
+\s;	}
+\s;}
+\s;void eliminarVespas(){
+\s;	object[] v = radarall(AlienWasp);
+\s;	for(int i=0;i<sizeof(v);i++){
+\s;		turn(direction(v[i].position));
+\s;		fire(0.1);
+\s;	}
+\s;}
+\s;void eliminarAranhas(){
+\s;	object[] a = radarall(AlienSpider);
+\s;	for(int i=0;i<sizeof(a);i++){
+\s;		turn(direction(a[i].position));
+\s;		fire(0.1);
+\s;	}
+\s;}
+\n;

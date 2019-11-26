@@ -1,0 +1,11 @@
+\b;Solution
+\c;
+\s;extern void object::Mission4()
+\s;{
+\s;	int qtd = receive("qtd");
+\s;	for(int i=0;i<qtd;i++){
+\s;		object w = radar(WayPoint);
+\s;		goto(w.position);
+\s;	}
+\s;}
+\n;

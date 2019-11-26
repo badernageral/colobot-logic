@@ -1,0 +1,15 @@
+\b;Solution
+\c;
+\s;extern void object::Mission4()
+\s;{
+\s;	for(int i=3;i<=10;i++){
+\s;		walk(i);
+\s;	}
+\s;}
+\s;void walk(int m){
+\s;	move(m);
+\s;	turn(45);
+\s;	move(m);
+\s;	turn(45);
+\s;}
+\n;

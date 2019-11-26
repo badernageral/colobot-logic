@@ -1,0 +1,22 @@
+\b;Solução
+\c;
+\s;extern void object::Missao3()
+\s;{
+\s;	   mover(10, "norte");
+\s;	   mover(5, "leste");
+\s;	   mover(5, "sul");
+\s;	   mover(10, "oeste");
+\s;}
+\s;void object::mover(int dis, string dir){
+\s;	// movendo para o leste
+\s;	turn(direction(this.position));
+\s;	if(dir=="norte"){
+\s;		turn(90);
+\s;	}else if(dir=="sul"){
+\s;		turn(-90);
+\s;	}else if(dir=="oeste"){
+\s;		turn(-180);
+\s;	}
+\s;	move(dis);
+\s;}
+\n;

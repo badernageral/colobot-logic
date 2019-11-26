@@ -1,0 +1,16 @@
+\b;Solution
+\c;
+\s;extern void object::Mission4()
+\s;{
+\s;	object[] bot = radarall(TargetBot);
+\s;	for(int i=0;i<sizeof(bot);i++){
+\s;		point p1 = bot[i].position;
+\s;		wait(1);
+\s;		point p2 = bot[i].position;
+\s;		if(p1!=p2){
+\s;			turn(direction(p2));
+\s;			fire(0.1);
+\s;		}
+\s;	}
+\s;}
+\n;

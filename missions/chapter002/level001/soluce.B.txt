@@ -1,0 +1,13 @@
+\b;Solução
+\c;
+\s;extern void object::Missao1()
+\s;{
+\s;	int v1 = receive("v1");
+\s;	if(v1>=5){
+\s;		move(5);
+\s;	}else{
+\s;		turn(-90);
+\s;		move(5);
+\s;	}
+\s;}
+\n;

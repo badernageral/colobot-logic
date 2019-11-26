@@ -1,0 +1,9 @@
+\b;Solution
+\c;
+\s;extern void object::Mission4()
+\s;{
+\s;	int a  = receive("angulo");
+\s;	turn(a);
+\s;	move(15);
+\s;}
+\n;

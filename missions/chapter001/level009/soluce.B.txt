@@ -1,0 +1,18 @@
+\b;Solução
+\c;
+\s;extern void object::Missao9()
+\s;{
+\s;	object a = radar(TargetBot);
+\s;	int ad  = direction(a.position);
+\s;	turn(ad);
+\s;	fire(1);
+\s;	object b = radar(TargetBot);
+\s;	int bd  = direction(b.position);
+\s;	turn(bd);
+\s;	fire(1);
+\s;	object c = radar(TargetBot);
+\s;	int cd  = direction(c.position);
+\s;	turn(cd);
+\s;	fire(1);
+\s;}
+\n;

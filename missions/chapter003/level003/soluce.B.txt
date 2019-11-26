@@ -1,0 +1,10 @@
+\b;Solução
+\c;
+\s;extern void object::Missao3()
+\s;{
+\s;	while(true){
+\s;		object w = radar(WayPoint);
+\s;		goto(w.position);
+\s;	}
+\s;}
+\n;

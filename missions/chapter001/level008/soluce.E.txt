@@ -1,0 +1,14 @@
+\b;Solution
+\c;
+\s;extern void object::Mission8()
+\s;{
+\s;	object item = radar(TNT);
+\s;	goto(item.position);
+\s;	grab();
+\s;	int x  = receive("x", 20);
+\s;	int y  = receive("y", 20);
+\s;	point a(x, y, 0);
+\s;	goto(a);
+\s;	drop();
+\s;}
+\n;

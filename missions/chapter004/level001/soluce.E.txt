@@ -1,0 +1,13 @@
+\b;Solution
+\c;
+\s;extern void object::Mission1()
+\s;{
+\s;	object b[] = radarall(BlueFlag);
+\s;	goto(b[9].position);
+\s;	goto(b[50].position);
+\s;	turn(-45);
+\s;	move(2);
+\s;	turn(90);
+\s;	move(3);
+\s;}
+\n;

@@ -11,11 +11,14 @@ ScriptName.B text="Missao6"
 // SatCom
 Instructions name="%lvl%/ajuda.%lng%.txt" immediat=1
 
+// Solução
+SoluceFile name="%lvl%/soluce.%lng%.txt"
+
 // Documentação em <colobot>/help
 HelpFile name="cbot.txt"
 
 // Configurações básicas
-EndingFile win=2 lost=0
+EndingFile win="other/win002.txt" lost="other/lost000.txt"
 MessageDelay factor=1.0
 Audio filename="%chap%/musica.ogg" repeat=1
 Background up=0.000;0.706;1.000 down=1.000;1.000;1.000
@@ -32,7 +35,7 @@ TerrainCreate
 BeginObject
 CreateObject pos=0;0 dir=0 type=StartArea
 CreateObject pos=0;0 dir=1.5 type=PracticeBot power=100 trainer=1 select=1 camera=BACK
-CreateObject pos=-5;0 dir=1.5 type=ExchangePost selectable=0 magnifyDamage=0 info1="x1=-5" info2="x2=-3" info3="x3=-3" info4="y1=6" info5="y2=10" info6="y3=14"
+CreateObject pos=-5;0 dir=1.5 type=ExchangePost selectable=0 magnifyDamage=0 info1="x1=-5" info2="x2=5" info3="x3=-3" info4="y1=6" info5="y2=10" info6="y3=14"
 CreateObject pos=-5;6 dir=0 type=WayPoint
 CreateObject pos=5;10 dir=0 type=WayPoint
 CreateObject pos=-3;14 dir=0 type=WayPoint

@@ -1,0 +1,23 @@
+\b;Solution
+\c;
+\s;extern void object::Mission5()
+\s;{
+\s;	int m = receive("m",100);
+\s;	int d = receive("d",100);
+\s;	if(d==2){
+\s;		turn(-90);
+\s;		move(m);
+\s;		turn(90);
+\s;	}else if(d==3){
+\s;		turn(180);
+\s;		move(m);
+\s;		turn(180);
+\s;	}else if(d==4){
+\s;		turn(90);
+\s;		move(m);
+\s;		turn(-90);
+\s;	}else{
+\s;		move(m);
+\s;	}
+\s;}
+\n;

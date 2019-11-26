@@ -1,0 +1,13 @@
+\b;Solução
+\c;
+\s;extern void object::Missao7()
+\s;{
+\s;	while(true){
+\s;		object robo = radar(TargetBot);
+\s;		turn(direction(robo.position)+10);
+\s;		if(direction(robo.position)<5 && direction(robo.position)>-5){
+\s;			fire(0.5);
+\s;		}
+\s;	}
+\s;}
+\n;

@@ -1,0 +1,19 @@
+\b;Solution
+\c;
+\s;extern void object::Mission2()
+\s;{
+\s;	int cat[5];
+\s;	cat[0] = BlueFlag;
+\s;	cat[1] = RedFlag;
+\s;	cat[2] = GreenFlag;
+\s;	cat[3] = YellowFlag;
+\s;	cat[4] = VioletFlag;
+\s;	object[] b = radarall(cat);
+\s;	goto(b[23].position);
+\s;	goto(b[51].position);
+\s;	turn(45);
+\s;	move(2);
+\s;	turn(-90);
+\s;	move(3);
+\s;}
+\n;

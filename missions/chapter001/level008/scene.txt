@@ -11,11 +11,14 @@ ScriptName.B text="Missao8"
 // SatCom
 Instructions name="%lvl%/ajuda.%lng%.txt" immediat=1
 
+// Solução
+SoluceFile name="%lvl%/soluce.%lng%.txt"
+
 // Documentação em <colobot>/help
 HelpFile name="cbot.txt"
 
 // Configurações básicas
-EndingFile win=2 lost=0
+EndingFile win="other/win002.txt" lost="other/lost000.txt"
 MessageDelay factor=1.0
 Audio filename="%chap%/musica.ogg" repeat=1
 Background up=0.000;0.706;1.000 down=1.000;1.000;1.000

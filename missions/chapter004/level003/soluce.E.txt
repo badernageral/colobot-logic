@@ -1,0 +1,15 @@
+\b;Solution
+\c;
+\s;extern void object::Mission3()
+\s;{
+\s;	object[] bot = radarall(TargetBot);
+\s;	for(int i=0;i<sizeof(bot);i++){
+\s;		point me = this.position;
+\s;		point b = bot[i].position;
+\s;		if(distance(me,b)<15){
+\s;			turn(direction(b));
+\s;			fire(0.5);
+\s;		}
+\s;	}
+\s;}
+\n;

@@ -1,0 +1,13 @@
+\b;Solução
+\c;
+\s;extern void object::Missao5()
+\s;{
+\s;	while(true){
+\s;		object bot = radar(TargetBot);
+\s;		point pos = bot.position;
+\s;		int dir = direction(pos);
+\s;		turn(dir);
+\s;		fire(0.1);
+\s;	}
+\s;}
+\n;

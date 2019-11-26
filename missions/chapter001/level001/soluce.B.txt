@@ -1,0 +1,3 @@
+\b;Solução
+
+Para resolver este exercicio basta mover o robô com o teclado, nenhum código precisa ser escrito.

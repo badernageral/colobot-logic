@@ -1,0 +1,10 @@
+\b;Solution
+\c;
+\s;extern void object::Mission5()
+\s;{
+\s;	point a(-5,7.5,0);
+\s;	point b(4,12,0);
+\s;	goto(a);
+\s;	goto(b);
+\s;}
+\n;
